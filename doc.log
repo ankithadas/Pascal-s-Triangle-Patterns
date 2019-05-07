@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.9)  7 MAY 2019 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.9)  7 MAY 2019 19:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -553,24 +553,24 @@ Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
  Excluding comment 'comment')
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps,.gif]
-(grfext)             \AppendGraphicsExtensions on input line 18.
- (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty)) (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux)
+(grfext)             \AppendGraphicsExtensions on input line 17.
+ (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux)
 \openout1 = `doc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -621,7 +621,7 @@ LaTeX Font Info:    ... okay on input line 32.
 \everyMPtoPDFconversion=\toks47
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 31.
  (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -629,62 +629,62 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out) (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out)
 \@outlinefile=\write6
 \openout6 = `doc.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 32.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 32.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 31.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 32.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 32.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 32.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 32.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 32.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 32.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 32.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 32.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 32.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 32.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 32.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 32.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 32.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 32.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 32.
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 32.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 31.
  (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -697,50 +697,41 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav)
-Overfull \hbox (30.0pt too wide) in paragraph at lines 32--32
-[][]  
- []
+) (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav) [1
 
-[1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.toc) [3
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 89.
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 89.
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 89.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 88.
  (c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [4
 
 ]
-<Mod2,7.pdf, id=414, 185.16577pt x 163.0622pt>
+<Mod2,7.pdf, id=101, 185.16577pt x 163.0622pt>
 File: Mod2,7.pdf Graphic file (type pdf)
 <use Mod2,7.pdf>
-Package pdftex.def Info: Mod2,7.pdf  used on input line 108.
+Package pdftex.def Info: Mod2,7.pdf  used on input line 107.
 (pdftex.def)             Requested size: 148.13281pt x 130.44992pt.
  [5
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2,7.pdf>]
-<PascalMod2.pdf, id=484, 342.86496pt x 299.63445pt>
+<PascalMod2.pdf, id=117, 342.86496pt x 299.63445pt>
 File: PascalMod2.pdf Graphic file (type pdf)
 <use PascalMod2.pdf>
-Package pdftex.def Info: PascalMod2.pdf  used on input line 115.
+Package pdftex.def Info: PascalMod2.pdf  used on input line 114.
 (pdftex.def)             Requested size: 274.29233pt x 239.70787pt.
-
-Overfull \vbox (3.33162pt too high) detected at line 115
- []
-
-[6
+ [6
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod2.pdf>] [7
 
@@ -749,26 +740,26 @@ Overfull \vbox (3.33162pt too high) detected at line 115
 ] [9
 
 ]
-<fig1.png, id=733, 477.785pt x 68.255pt>
+<fig1.png, id=153, 477.785pt x 68.255pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 204.
+Package pdftex.def Info: fig1.png  used on input line 202.
 (pdftex.def)             Requested size: 238.8919pt x 34.12741pt.
  [10
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/fig1.png>]
-<fig2.png, id=794, 703.12688pt x 365.86688pt>
+<fig2.png, id=159, 703.12688pt x 365.86688pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 215.
+Package pdftex.def Info: fig2.png  used on input line 213.
 (pdftex.def)             Requested size: 260.15286pt x 135.36862pt.
  [11
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/fig2.png>]
-<fig3.png, id=855, 556.32843pt x 385.44pt>
+<fig3.png, id=167, 556.32843pt x 385.44pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 224.
+Package pdftex.def Info: fig3.png  used on input line 223.
 (pdftex.def)             Requested size: 222.52742pt x 154.17326pt.
  [12
 
@@ -777,38 +768,26 @@ File: fig1.png Graphic file (type png)
 <use fig1.png>
 Package pdftex.def Info: fig1.png  used on input line 240.
 (pdftex.def)             Requested size: 238.8919pt x 34.12741pt.
-
-Overfull \vbox (2.69139pt too high) detected at line 240
- []
-
-[13
+ [13
 
 ]
-<fig4.pdf, id=976, 433.62pt x 434.62375pt>
+<fig4.pdf, id=180, 433.62pt x 434.62375pt>
 File: fig4.pdf Graphic file (type pdf)
 <use fig4.pdf>
 Package pdftex.def Info: fig4.pdf  used on input line 249.
 (pdftex.def)             Requested size: 195.1272pt x 195.57887pt.
-
-Overfull \vbox (11.62057pt too high) detected at line 249
- []
-
-[14
+ [14
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/fig4.pdf>]
-<seir.pdf, id=1039, 433.62pt x 432.61626pt>
+<seir.pdf, id=190, 433.62pt x 432.61626pt>
 File: seir.pdf Graphic file (type pdf)
 <use seir.pdf>
 Package pdftex.def Info: seir.pdf  used on input line 257.
 (pdftex.def)             Requested size: 195.1272pt x 194.6755pt.
-
-Overfull \vbox (10.71721pt too high) detected at line 257
- []
-
-[15
+ [15
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/seir.pdf>]
-<sier2.pdf, id=1101, 736.7525pt x 383.4325pt>
+<sier2.pdf, id=198, 736.7525pt x 383.4325pt>
 File: sier2.pdf Graphic file (type pdf)
 <use sier2.pdf>
 Package pdftex.def Info: sier2.pdf  used on input line 265.
@@ -816,7 +795,7 @@ Package pdftex.def Info: sier2.pdf  used on input line 265.
  [16
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/sier2.pdf>]
-<rule30.pdf, id=1162, 736.7525pt x 384.43625pt>
+<rule30.pdf, id=206, 736.7525pt x 384.43625pt>
 File: rule30.pdf Graphic file (type pdf)
 <use rule30.pdf>
 Package pdftex.def Info: rule30.pdf  used on input line 274.
@@ -832,10 +811,10 @@ Package pdftex.def Info: rule30.pdf  used on input line 274.
 ] [21
 
 ]
-<VonNeigh.png, id=1461, 94.85437pt x 94.85437pt>
+<VonNeigh.png, id=237, 94.85437pt x 94.85437pt>
 File: VonNeigh.png Graphic file (type png)
 <use VonNeigh.png>
-Package pdftex.def Info: VonNeigh.png  used on input line 340.
+Package pdftex.def Info: VonNeigh.png  used on input line 341.
 (pdftex.def)             Requested size: 47.42706pt x 47.42706pt.
  [22
 
@@ -847,67 +826,65 @@ Package pdftex.def Info: VonNeigh.png  used on input line 340.
 
 ] [26
 
-] [27
+]
+<Mod2Poly.pdf, id=264, 433.62pt x 432.61626pt>
+File: Mod2Poly.pdf Graphic file (type pdf)
+<use Mod2Poly.pdf>
+Package pdftex.def Info: Mod2Poly.pdf  used on input line 431.
+(pdftex.def)             Requested size: 173.44492pt x 173.04343pt.
+ [27
+
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2Poly.pdf>] [28
 
 ]
-<Mod3Poly.pdf, id=1816, 433.62pt x 432.61626pt>
+<Mod3Poly.pdf, id=277, 433.62pt x 432.61626pt>
 File: Mod3Poly.pdf Graphic file (type pdf)
 <use Mod3Poly.pdf>
-Package pdftex.def Info: Mod3Poly.pdf  used on input line 462.
+Package pdftex.def Info: Mod3Poly.pdf  used on input line 473.
 (pdftex.def)             Requested size: 86.72246pt x 86.52171pt.
+ [29
 
-Overfull \vbox (1.53854pt too high) detected at line 462
- []
-
-[28
-
- <c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf>] [29
-
-] [30
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf>] [30
 
 ] [31
 
+] [32
+
 ]
-<PascalMod3.pdf, id=2055, 677.97493pt x 589.8487pt>
+<PascalMod3.pdf, id=301, 677.97493pt x 589.8487pt>
 File: PascalMod3.pdf Graphic file (type pdf)
 <use PascalMod3.pdf>
-Package pdftex.def Info: PascalMod3.pdf  used on input line 509.
+Package pdftex.def Info: PascalMod3.pdf  used on input line 520.
 (pdftex.def)             Requested size: 250.8468pt x 218.2406pt.
-
-Overfull \vbox (11.4088pt too high) detected at line 509
- []
-
-[32
-
- <c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf>]
-<newCoordinate.png, id=2120, 640.64343pt x 241.65282pt>
-File: newCoordinate.png Graphic file (type png)
-<use newCoordinate.png>
-Package pdftex.def Info: newCoordinate.png  used on input line 524.
-(pdftex.def)             Requested size: 249.84993pt x 94.24422pt.
  [33
 
- <c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png>] [34
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf>]
+<newCoordinate.png, id=313, 640.64343pt x 241.65282pt>
+File: newCoordinate.png Graphic file (type png)
+<use newCoordinate.png>
+Package pdftex.def Info: newCoordinate.png  used on input line 535.
+(pdftex.def)             Requested size: 249.84993pt x 94.24422pt.
+ [34
+
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png>] [35
 
 ]
-<Mod6.pdf, id=2240, 433.62pt x 432.61626pt>
+<Mod6.pdf, id=324, 433.62pt x 432.61626pt>
 File: Mod6.pdf Graphic file (type pdf)
 <use Mod6.pdf>
-Package pdftex.def Info: Mod6.pdf  used on input line 551.
+Package pdftex.def Info: Mod6.pdf  used on input line 562.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
-<mod2,3.pdf, id=2241, 433.62pt x 432.61626pt>
+<mod2,3.pdf, id=325, 433.62pt x 432.61626pt>
 File: mod2,3.pdf Graphic file (type pdf)
 <use mod2,3.pdf>
-Package pdftex.def Info: mod2,3.pdf  used on input line 551.
+Package pdftex.def Info: mod2,3.pdf  used on input line 562.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
- [35
+ [36
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6.pdf> <c:/Users/Ankith A Das/Documents/Math2916/Latex/mod2,3.pdf
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Ankith A Das/Documents/Math2916/Latex/mod2,3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [36
-
-] [37
+>] [37
 
 ] [38
 
@@ -917,9 +894,19 @@ pdfTeX warning: pdflatex.exe (file c:/Users/Ankith A Das/Documents/Math2916/Late
 
 ] [41
 
-] [42
+]
+<Mod6CP.pdf, id=359, 433.62pt x 432.61626pt>
+File: Mod6CP.pdf Graphic file (type pdf)
+<use Mod6CP.pdf>
+Package pdftex.def Info: Mod6CP.pdf  used on input line 661.
+(pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
+File: Mod6.pdf Graphic file (type pdf)
+<use Mod6.pdf>
+Package pdftex.def Info: Mod6.pdf  used on input line 661.
+(pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
+ [42
 
-] [43
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6CP.pdf>] [43
 
 ] [44
 
@@ -933,9 +920,45 @@ pdfTeX warning: pdflatex.exe (file c:/Users/Ankith A Das/Documents/Math2916/Late
 
 ] [49
 
-] Excluding 'comment' comment. [50
+] [50
 
 ] [51
+
+]
+<GlobalMod2.pdf, id=417, 433.62pt x 432.61626pt>
+File: GlobalMod2.pdf Graphic file (type pdf)
+<use GlobalMod2.pdf>
+Package pdftex.def Info: GlobalMod2.pdf  used on input line 821.
+(pdftex.def)             Requested size: 216.80946pt x 216.3076pt.
+ [52
+
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod2.pdf>]
+<GlobalMod3.pdf, id=425, 433.62pt x 432.61626pt>
+File: GlobalMod3.pdf Graphic file (type pdf)
+<use GlobalMod3.pdf>
+Package pdftex.def Info: GlobalMod3.pdf  used on input line 829.
+(pdftex.def)             Requested size: 216.80946pt x 216.3076pt.
+ [53
+
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod3.pdf>]
+<GlobalMod5.pdf, id=433, 433.62pt x 432.61626pt>
+File: GlobalMod5.pdf Graphic file (type pdf)
+<use GlobalMod5.pdf>
+Package pdftex.def Info: GlobalMod5.pdf  used on input line 837.
+(pdftex.def)             Requested size: 216.80946pt x 216.3076pt.
+ [54
+
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod5.pdf>]
+<GlobalMod7.pdf, id=442, 433.62pt x 432.61626pt>
+File: GlobalMod7.pdf Graphic file (type pdf)
+<use GlobalMod7.pdf>
+Package pdftex.def Info: GlobalMod7.pdf  used on input line 845.
+(pdftex.def)             Requested size: 216.80946pt x 216.3076pt.
+ [55
+
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod7.pdf>] [56
+
+] [57
 
 ]
 \tf@nav=\write7
@@ -947,27 +970,27 @@ pdfTeX warning: pdflatex.exe (file c:/Users/Ankith A Das/Documents/Math2916/Late
 \tf@snm=\write9
 \openout9 = `doc.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 868.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 868.
  (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 868.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 868.
 Package rerunfilecheck Info: File `doc.out' has not changed.
-(rerunfilecheck)             Checksum: 3BE2924ED0319B1AA7440622FEABDA94;651.
+(rerunfilecheck)             Checksum: A572D02289430DB17D215C19E25132D9;651.
  ) 
 Here is how much of TeX's memory you used:
- 18891 strings out of 492649
- 361511 string characters out of 6133385
- 488660 words of memory out of 5000000
- 22241 multiletter control sequences out of 15000+600000
+ 18849 strings out of 492649
+ 359148 string characters out of 6133385
+ 457554 words of memory out of 5000000
+ 22187 multiletter control sequences out of 15000+600000
  14834 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,56p,846b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.pdf" (51 pages, 550980 bytes).
+ 56i,12n,55p,846b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.pdf" (57 pages, 5840915 bytes).
 PDF statistics:
- 3314 PDF objects out of 3580 (max. 8388607)
- 3127 compressed objects within 32 object streams
- 114 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

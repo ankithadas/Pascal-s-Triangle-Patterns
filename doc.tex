@@ -1,6 +1,5 @@
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
-%Information to be included in the title page:
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -19,7 +18,7 @@
 \setbeamersize{text margin left=5mm,text margin right=5mm} 
 \mode<presentation>
 {
-    \usetheme{Singapore}
+    %\usetheme{Singapore}
 }
 \usenavigationsymbolstemplate{} % This turns off the annoying string of symbols in the bottom right
 
@@ -102,9 +101,9 @@
         \centering
         \includegraphics[scale=0.8]{Mod2,7.pdf}
     \end{figure}
-    % Insert an image of pascal with seirpinski gasket
-    
-
+    % Insert an image of pascal with sierpinski gasket
+    % Make changes to this image
+    % Not consistent
 \end{frame}
 
 \begin{frame}
@@ -113,8 +112,6 @@
         \includegraphics[scale=0.8]{PascalMod2.pdf}
     \end{figure}
 \end{frame}
-%\begin{comment}
-    
 
 \begin{frame}
     \frametitle{Pascal's Triangle}
@@ -132,6 +129,7 @@
         \end{equation*}
     \end{itemize}
 \end{frame}
+% Add a picture of skewed pascal triangle, Look into adding numbers to the figure
 
 \begin{frame}
     \frametitle{Pascal's Triangle}
@@ -149,8 +147,8 @@
         \begin{equation*}
             \binom{40}{20} = 137846528820 > 2^{32}
         \end{equation*}
-        which is a big number\\
-        Fortunately, we don't need to compute these large numbers
+        which is a big number
+        \item Fortunately, we don't need to compute these large numbers
         \end{itemize}
     
 \end{frame}
@@ -161,14 +159,14 @@
         \item
         Ex: Divisibility by 2 can be followed from addition rule 
         \begin{table}[H]
-            \begin{tabular}{|l|l|l|}
+            \begin{tabular}{|lll|}
                 \hline
-                $\binom{n}{k-1}$& $\binom{n}{k}$& $\binom{n+1}{k}$\\
+                $\binom{n+1}{k} = $ & $\binom{n}{k-1} + $& $\binom{n}{k}$\\
                 \hline
                 even & even & even \\
+                odd  & odd  & even \\
                 odd  & even & odd  \\
-                even & odd  & odd  \\
-                odd  & odd  & odd\\
+                odd  & odd  & odd  \\
                 \hline
             \end{tabular}
         \end{table}
@@ -220,8 +218,10 @@
     \begin{figure}
         \includegraphics[scale=0.4]{fig3.png}
         \caption{13 Generations of Rule 60 Elementary CA}
+        % Add numbers and details to this figure, Give it to Gautam to make changes
     \end{figure}
 \end{frame}
+
 \subsection{Elementary CA}
 \begin{frame}
     \frametitle{Elementary Cellular Automata}
@@ -277,17 +277,18 @@
     \frametitle{2D CA: Game of life...}
     \begin{itemize}
         % Maybe I can ger rid of this one 
-        \item Was very popular through the work of John Horton Conway in 1970's
+        %\item Was very popular through the work of John Horton Conway in 1970's
+        \item Was made popular through the work of John Horton Conway
         \item 2-state CA
         \item Rules:
         \begin{enumerate}
             \item Cell survives when exactly 2 or 3 of it's 8 neighbors are alive.
-            \item If more than 3 neighbors are alive, the cell dies from overcrowdedness.
-            \item If fewer than 2 neighbors are alive, the cell dies from oneliness.
+            \item If more than 3 neighbors are alive, the cell dies from over-crowdedness.
+            \item If fewer than 2 neighbors are alive, the cell dies from loneliness.
             \item Dead cell comes back to life when surrounded by exactly 3 live neighbors.  
         \end{enumerate}
         \item Makes some interesting patters and life like behavior 
-        \item Note:The position of the alive and dead cells w.r.t the center does not matter for this rule. Also known as Totalistic CA
+        \item \textbf{Note:} The position of the alive and dead cells w.r.t the center does not matter for this rule. Also known as Totalistic CA
     \end{itemize}
 \end{frame}
 
@@ -369,7 +370,7 @@
         \begin{equation*}
             C_{new} = C_{old} + N_{old} + E_{old} + S_{old} + W_{old} \mod 2
         \end{equation*}
-        \item Again, this is a 2-state CA
+        %\item Again, this is a 2-state CA
     \end{itemize}
 \end{frame}
 \subsection{CA,Pascal's Triangle and Polynomials}
@@ -403,20 +404,30 @@
         \item With this, the addition rules in mod 2 arithmetic simplifies to
         \begin{table}
             \centering
-            \begin{tabular}{|c|c|c|}
+            \begin{tabular}{|ccc|}
                 \hline
-                $\binom{n}{k-1}$& $ \ \binom{n}{k} \ $ & $\binom{n+1}{k}$\\
+                $\binom{n+1}{k} =$ & $\binom{n}{k-1}$& $+ \ \binom{n}{k} \ $\\
                 \hline
                 0 & 0 & 0 \\
-                1  & 0 & 1  \\
-                0 & 1  & 1  \\
-                1  & 1  & 0\\
+                1 & 1 & 0 \\
+                1 & 0 & 1 \\
+                0 & 1 & 1 \\
                 \hline
             \end{tabular}
         \end{table}
         \item Exactly same rule set used to make Pascal Triangle
-        \item Thus, that figure shows the coefficients of the power of $r(x) = 1+x \mod 2$ 
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.4]{Mod2Poly.pdf}
+        % Add generation axis to this plot 
+        \begin{itemize}
+            \item Thus, this figure shows the coefficients of the powers of $r(x) = 1+x \mod 2$ 
+        \end{itemize}
+    \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -436,7 +447,7 @@
             &\vdots \\
             (r(x))^n &= a_0(n) + a_1(n)x + \dots + a_n(n)x^n
         \end{align*}
-        \item By pattern
+        \item By pattern,
         \begin{equation*}
             a_k(n) = a_{k}(n-1) + 2a_{k-1}(n-1)
         \end{equation*}
@@ -497,7 +508,7 @@
         \item Black and white coloring of the Pascal triangle depending on divisibility with p
         \item We will also see that in order to understand the patterns formed by mod $p$, we should look at the patters formed by the prime factors of $p$ 
         \item We will look at a direct, non-recursive computation of divisibility by p
-        \item This was solved in an elegant manner by Ernest Eduard Kummer.
+        %\item This was solved in an elegant manner by Ernest Eduard Kummer.
     \end{itemize}
 \end{frame}
 
@@ -638,6 +649,18 @@
         \end{equation*}
     \end{itemize}
 \end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.475\textwidth]{Mod6CP.pdf}
+        \hfill
+        \includegraphics[width=0.475\textwidth]{Mod6.pdf}
+        \caption{$P(6)$ generated using carry function (left) vs binomial divisibility (right)}
+    \end{figure}
+        
+\end{frame}
+
+
 \section{Iterated Function System}
 \begin{frame}
     \frametitle{Iterated Function System}
@@ -788,7 +811,7 @@
         \end{equation*} 
     \end{itemize}
 \end{frame}
-\begin{comment}
+
 \begin{frame}
     \begin{figure}
         \centering
@@ -801,7 +824,7 @@
     \begin{figure}
         \centering
         \includegraphics[scale=0.5]{GlobalMod3.pdf}
-        \caption{Limit of Mod 3 IFS}
+        \caption{Limit of Mod 3 IFS.}
     \end{figure}
 \end{frame}
 
@@ -809,7 +832,7 @@
     \begin{figure}
         \centering
         \includegraphics[scale=0.5]{GlobalMod5}
-        \caption{Limit of Mod 5 IFS}
+        \caption{Limit of Mod 5 IFS.}
     \end{figure}
 \end{frame}
 
@@ -817,10 +840,10 @@
     \begin{figure}
         \centering
         \includegraphics[scale=0.5]{GlobalMod7}
-        \caption{Limit of Mod 7 IFS}
+        \caption{Limit of Mod 7 IFS.}
     \end{figure}
 \end{frame}
-\end{comment}
+
 \section*{}
 \begin{frame}
     \frametitle{Conlcusion}

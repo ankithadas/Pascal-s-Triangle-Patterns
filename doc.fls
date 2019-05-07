@@ -244,10 +244,6 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
-INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty
-INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty
-INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty
-INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
@@ -353,25 +349,45 @@ INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/sier2.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/rule30.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/rule30.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/rule30.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/VonNeigh.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/VonNeigh.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/VonNeigh.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/VonNeigh.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/VonNeigh.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/VonNeigh.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2Poly.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2Poly.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2Poly.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/mod2,3.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/mod2,3.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/mod2,3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6CP.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6CP.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6CP.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod5.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod5.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod5.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod7.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod7.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod7.pdf
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.toc
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.snm
@@ -391,3 +407,4 @@ INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
