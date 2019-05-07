@@ -19,7 +19,7 @@
 \setbeamersize{text margin left=5mm,text margin right=5mm} 
 \mode<presentation>
 {
-  %\usetheme{Singapore}
+    \usetheme{Singapore}
 }
 \usenavigationsymbolstemplate{} % This turns off the annoying string of symbols in the bottom right
 
@@ -360,6 +360,7 @@
     \end{itemize}
 \end{frame}
 
+% Maybe the last point is obvious and need not be stated 
 \begin{frame}
     \frametitle{Cellular Automata}
     \begin{itemize}
@@ -390,7 +391,8 @@
         \item $a_k(n)$ gives the state of $\text{n}^{\text{th}}$ layer $\text{CA}^*$ 
     \end{itemize}
 \end{frame}
-    
+% Need to bring changes to this slide 
+% Maybe add a figure to give better explanation of last point
 \begin{frame}
     \frametitle{CA, Pascal's Triangle and Polynomial}
     \begin{itemize}
@@ -786,7 +788,7 @@
         \end{equation*} 
     \end{itemize}
 \end{frame}
-
+\begin{comment}
 \begin{frame}
     \begin{figure}
         \centering
@@ -818,14 +820,26 @@
         \caption{Limit of Mod 7 IFS}
     \end{figure}
 \end{frame}
-
+\end{comment}
+\section*{}
 \begin{frame}
     \frametitle{Conlcusion}
-    \begin{enumerate}
-        
-    \end{enumerate}
-        
+    \begin{itemize}
+        \item We approached the problem of coloring (or divisibility) of pascal's triangle in 3 different ways 
+        \begin{enumerate}
+            \item First, we looked at the macroscopic nature of divisibility, i.e how the neighbors affected the divisibility of a cell. We then explored the realm of cellular automata and how it extends this idea to general polynomials. We also peaked into some open ended problems
+            \item Second, we looked at the microscopic nature of divisibility,i.e how the divisibility of a cell depends on its coordinate (Kummer's Result). We looked how p-adic numbers gave insight about binomial divisibility with primes. We also extended this idea of divisibility to all integers.
+            \item Finally, we looked at the global pattern using Iterated function system. We showed that the limit of Pascal Mod 2 pattern was indeed the Sierpinski triangle. We also explored the global patterns of other primes and their IFS. 
+        \end{enumerate}
+    \end{itemize}
 \end{frame}
 
+\begin{frame}
+    \begin{itemize}
+        \item Each method gave a different perspective of the same problem.
+        \item This entire chapter is trying to solve the jig-saw puzzle that relates fractals, Pascal's triangle, and Cellular Automata. 
+        \item Understanding that these 3 very different things are all tied up by one common thread is, honestly, amazing. 
+    \end{itemize}
+\end{frame}
 
 \end{document}

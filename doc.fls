@@ -210,3 +210,184 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf
+OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.20.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.20.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericononline.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericononline.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericononline.20.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericononline.20.pdf
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/cleveref/cleveref.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/cleveref/cleveref.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlive/2018/texmf-dist/tex/latex/framed/framed.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/framed/framed.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
+OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
+INPUT c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out
+OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.toc
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.toc
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+INPUT c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2,7.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2,7.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2,7.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod2.pdf
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig1.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig1.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig1.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig2.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig2.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig2.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig1.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig1.png
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig4.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig4.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/fig4.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/seir.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/seir.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/seir.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/sier2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/sier2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/sier2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/rule30.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/rule30.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/rule30.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/VonNeigh.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/VonNeigh.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/VonNeigh.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod6.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/mod2,3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/mod2,3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/mod2,3.pdf
+OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav
+OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.toc
+OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.snm
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.out
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
