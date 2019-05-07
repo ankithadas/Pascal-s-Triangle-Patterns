@@ -244,6 +244,10 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
@@ -388,6 +392,7 @@ INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod5.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod7.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod7.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod7.pdf
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.toc
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.snm
@@ -401,10 +406,10 @@ INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb

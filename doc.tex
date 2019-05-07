@@ -18,13 +18,13 @@
 \setbeamersize{text margin left=5mm,text margin right=5mm} 
 \mode<presentation>
 {
-    %\usetheme{Singapore}
+    \usetheme{Singapore}
 }
 \usenavigationsymbolstemplate{} % This turns off the annoying string of symbols in the bottom right
 
 % \usepackage{beamerthemesplit} // Activate for custom appearance
 \title{Pascal's Triangle: Cellular Automata and Attractors}
-\author{Ankith Anil Das}
+\author{Ankith A Das}
 \institute{The University of Sydney}
 \date{\today}
 
@@ -91,19 +91,14 @@
     Let's look at it in a few different ways \\
     It is observed by coloring 
     \begin{itemize}
-        \item
-        all odd numbers white
-        \item
-        all even numbers black
+        \item all odd numbers black
+        \item all even numbers white
     \end{itemize}
 
     \begin{figure}
         \centering
         \includegraphics[scale=0.8]{Mod2,7.pdf}
     \end{figure}
-    % Insert an image of pascal with sierpinski gasket
-    % Make changes to this image
-    % Not consistent
 \end{frame}
 
 \begin{frame}
@@ -121,7 +116,9 @@
         \begin{align*}
             (1+x)^{0} &=\qquad 1 \\
             (1+x)^{1} &=\quad 1+1 x \\
-            (1+x)^{2} &= 1+2 x+1 x^{2} \\ & \vdots \\(1+x)^{n} &=a_{0}+a_{1} x+\cdots+a_{n} x^{n} 
+            (1+x)^{2} &= 1+2 x+1 x^{2} \\
+            & \vdots \\
+            (1+x)^{n} &=a_{0}+a_{1} x+\cdots+a_{n} x^{n} 
         \end{align*}
         where coefficients are given by
         \begin{equation*}
@@ -177,7 +174,6 @@
     \end{itemize}
 \end{frame}
 \section{Cellular Automata}
-%\begin{comment}
 
 \begin{frame}
     \frametitle{Cellular Automata}
@@ -216,7 +212,7 @@
     \frametitle{Cellular Automata}
     So lets run some 
     \begin{figure}
-        \includegraphics[scale=0.4]{fig3.png}
+        \includegraphics[scale=0.42]{fig3.png}
         \caption{13 Generations of Rule 60 Elementary CA}
         % Add numbers and details to this figure, Give it to Gautam to make changes
     \end{figure}
@@ -243,7 +239,7 @@
     \frametitle{Elementary Cellular Automata}
     \begin{figure}
         \centering
-        \includegraphics[scale=0.45]{fig4.pdf}
+        \includegraphics[scale=0.43]{fig4.pdf}
         \caption{Rule 110, this might be special}
     \end{figure}
 \end{frame}
@@ -251,7 +247,7 @@
 \begin{frame}
     \frametitle{Elementary Cellular Automata}
     \begin{figure}
-        \includegraphics[scale=0.45]{seir.pdf}
+        \includegraphics[scale=0.43]{seir.pdf}
         \caption{Rule 60. Sierpinski Triangle*}
     \end{figure}
 \end{frame}
@@ -485,6 +481,7 @@
     \end{itemize}
 \end{frame}
 
+% This slide needs improvement-Anki
 \begin{frame}
     \begin{itemize}
         \item Pattern Formation: Given a polynomial, what is the global pattern which evolves when the automaton has run for a long time?
@@ -713,12 +710,13 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \frametitle{Proof by picture}
-\end{frame}
+% \begin{frame}
+%     \frametitle{Proof by picture}
+%     % I want to make a good figure to show this 
+% \end{frame}
 
 \begin{frame}
-    \frametitle{Proof by symbols}
+    \frametitle{Proof} %by symbols}
     \begin{itemize}
         \item To show both are the same, we need to show
         \begin{equation*}
@@ -769,7 +767,7 @@
         \end{equation*} 
         Then running the IFS gives 
         \begin{equation*}
-            A_n = w_{00}(A_{n-1}) \cup w_{01}(A_{n-1}) \cup w_{00}(A_{n-1})
+            A_n = w_{00}(A_{n-1}) \cup w_{01}(A_{n-1}) \cup w_{10}(A_{n-1})
         \end{equation*}
         where the leading $n$ binary digits satisfy $a_i + b_i \leq 1$
         \item Finally, the sequence will lead to Sierpinski triangle
@@ -795,7 +793,6 @@
             w_{a,b}(Q) = Q_{a,b}
         \end{equation*}
     \end{itemize}
-        
 \end{frame}
 
 \begin{frame}
@@ -812,6 +809,7 @@
     \end{itemize}
 \end{frame}
 
+need to improve this section, very less detail about the figures 
 \begin{frame}
     \begin{figure}
         \centering
@@ -845,6 +843,7 @@
 \end{frame}
 
 \section*{}
+% Fix this issue, Slide should be out of all sections 
 \begin{frame}
     \frametitle{Conlcusion}
     \begin{itemize}
@@ -861,8 +860,16 @@
     \begin{itemize}
         \item Each method gave a different perspective of the same problem.
         \item This entire chapter is trying to solve the jig-saw puzzle that relates fractals, Pascal's triangle, and Cellular Automata. 
-        \item Understanding that these 3 very different things are all tied up by one common thread is, honestly, amazing. 
+        \item Understanding that these 3 very different things are all tied up by one common thread is, honestly, amazing.
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+    \centering 
+    \Huge{Thank You!}
+\end{frame}
+
+% add appendix and references 
+% 2 figures were taken out from the text book, need to reference them 
+% One figure from MathWorld 
 \end{document}

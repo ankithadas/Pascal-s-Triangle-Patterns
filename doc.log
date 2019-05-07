@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.9)  7 MAY 2019 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.9)  7 MAY 2019 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -554,7 +554,7 @@ Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps,.gif]
 (grfext)             \AppendGraphicsExtensions on input line 17.
- (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux)
+ (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty)) (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux)
 \openout1 = `doc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -697,9 +697,14 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav) [1
+) (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav)
+Overfull \hbox (30.0pt too wide) in paragraph at lines 31--31
+[][]  
+ []
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+[1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+] [2
 
 ] (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.toc) [3
 
@@ -718,20 +723,24 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 ) [4
 
 ]
-<Mod2,7.pdf, id=101, 185.16577pt x 163.0622pt>
+<Mod2,7.pdf, id=450, 185.16577pt x 163.0622pt>
 File: Mod2,7.pdf Graphic file (type pdf)
 <use Mod2,7.pdf>
-Package pdftex.def Info: Mod2,7.pdf  used on input line 107.
+Package pdftex.def Info: Mod2,7.pdf  used on input line 102.
 (pdftex.def)             Requested size: 148.13281pt x 130.44992pt.
  [5
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2,7.pdf>]
-<PascalMod2.pdf, id=117, 342.86496pt x 299.63445pt>
+<PascalMod2.pdf, id=526, 342.86496pt x 299.63445pt>
 File: PascalMod2.pdf Graphic file (type pdf)
 <use PascalMod2.pdf>
-Package pdftex.def Info: PascalMod2.pdf  used on input line 114.
+Package pdftex.def Info: PascalMod2.pdf  used on input line 109.
 (pdftex.def)             Requested size: 274.29233pt x 239.70787pt.
- [6
+
+Overfull \vbox (3.33162pt too high) detected at line 109
+ []
+
+[6
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod2.pdf>] [7
 
@@ -740,65 +749,77 @@ Package pdftex.def Info: PascalMod2.pdf  used on input line 114.
 ] [9
 
 ]
-<fig1.png, id=153, 477.785pt x 68.255pt>
+<fig1.png, id=800, 477.785pt x 68.255pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 202.
+Package pdftex.def Info: fig1.png  used on input line 198.
 (pdftex.def)             Requested size: 238.8919pt x 34.12741pt.
  [10
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/fig1.png>]
-<fig2.png, id=159, 703.12688pt x 365.86688pt>
+<fig2.png, id=866, 703.12688pt x 365.86688pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 213.
+Package pdftex.def Info: fig2.png  used on input line 209.
 (pdftex.def)             Requested size: 260.15286pt x 135.36862pt.
  [11
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/fig2.png>]
-<fig3.png, id=167, 556.32843pt x 385.44pt>
+<fig3.png, id=934, 549.7338pt x 374.3586pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 223.
-(pdftex.def)             Requested size: 222.52742pt x 154.17326pt.
+Package pdftex.def Info: fig3.png  used on input line 219.
+(pdftex.def)             Requested size: 230.88661pt x 157.22954pt.
  [12
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/fig3.png>]
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 240.
+Package pdftex.def Info: fig1.png  used on input line 236.
 (pdftex.def)             Requested size: 238.8919pt x 34.12741pt.
- [13
+
+Overfull \vbox (2.69139pt too high) detected at line 236
+ []
+
+[13
 
 ]
-<fig4.pdf, id=180, 433.62pt x 434.62375pt>
+<fig4.pdf, id=1066, 433.62pt x 434.62375pt>
 File: fig4.pdf Graphic file (type pdf)
 <use fig4.pdf>
-Package pdftex.def Info: fig4.pdf  used on input line 249.
-(pdftex.def)             Requested size: 195.1272pt x 195.57887pt.
- [14
+Package pdftex.def Info: fig4.pdf  used on input line 245.
+(pdftex.def)             Requested size: 186.45296pt x 186.88457pt.
+
+Overfull \vbox (2.92627pt too high) detected at line 245
+ []
+
+[14
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/fig4.pdf>]
-<seir.pdf, id=190, 433.62pt x 432.61626pt>
+<seir.pdf, id=1136, 433.62pt x 432.61626pt>
 File: seir.pdf Graphic file (type pdf)
 <use seir.pdf>
-Package pdftex.def Info: seir.pdf  used on input line 257.
-(pdftex.def)             Requested size: 195.1272pt x 194.6755pt.
- [15
+Package pdftex.def Info: seir.pdf  used on input line 253.
+(pdftex.def)             Requested size: 186.45296pt x 186.02136pt.
+
+Overfull \vbox (2.06306pt too high) detected at line 253
+ []
+
+[15
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/seir.pdf>]
-<sier2.pdf, id=198, 736.7525pt x 383.4325pt>
+<sier2.pdf, id=1204, 736.7525pt x 383.4325pt>
 File: sier2.pdf Graphic file (type pdf)
 <use sier2.pdf>
-Package pdftex.def Info: sier2.pdf  used on input line 265.
+Package pdftex.def Info: sier2.pdf  used on input line 261.
 (pdftex.def)             Requested size: 294.69577pt x 153.37029pt.
  [16
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/sier2.pdf>]
-<rule30.pdf, id=206, 736.7525pt x 384.43625pt>
+<rule30.pdf, id=1271, 736.7525pt x 384.43625pt>
 File: rule30.pdf Graphic file (type pdf)
 <use rule30.pdf>
-Package pdftex.def Info: rule30.pdf  used on input line 274.
+Package pdftex.def Info: rule30.pdf  used on input line 270.
 (pdftex.def)             Requested size: 287.33232pt x 149.92952pt.
  [17
 
@@ -811,10 +832,10 @@ Package pdftex.def Info: rule30.pdf  used on input line 274.
 ] [21
 
 ]
-<VonNeigh.png, id=237, 94.85437pt x 94.85437pt>
+<VonNeigh.png, id=1602, 94.85437pt x 94.85437pt>
 File: VonNeigh.png Graphic file (type png)
 <use VonNeigh.png>
-Package pdftex.def Info: VonNeigh.png  used on input line 341.
+Package pdftex.def Info: VonNeigh.png  used on input line 337.
 (pdftex.def)             Requested size: 47.42706pt x 47.42706pt.
  [22
 
@@ -827,22 +848,26 @@ Package pdftex.def Info: VonNeigh.png  used on input line 341.
 ] [26
 
 ]
-<Mod2Poly.pdf, id=264, 433.62pt x 432.61626pt>
+<Mod2Poly.pdf, id=1928, 433.62pt x 432.61626pt>
 File: Mod2Poly.pdf Graphic file (type pdf)
 <use Mod2Poly.pdf>
-Package pdftex.def Info: Mod2Poly.pdf  used on input line 431.
+Package pdftex.def Info: Mod2Poly.pdf  used on input line 427.
 (pdftex.def)             Requested size: 173.44492pt x 173.04343pt.
  [27
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod2Poly.pdf>] [28
 
 ]
-<Mod3Poly.pdf, id=277, 433.62pt x 432.61626pt>
+<Mod3Poly.pdf, id=2060, 433.62pt x 432.61626pt>
 File: Mod3Poly.pdf Graphic file (type pdf)
 <use Mod3Poly.pdf>
-Package pdftex.def Info: Mod3Poly.pdf  used on input line 473.
+Package pdftex.def Info: Mod3Poly.pdf  used on input line 469.
 (pdftex.def)             Requested size: 86.72246pt x 86.52171pt.
- [29
+
+Overfull \vbox (1.53854pt too high) detected at line 469
+ []
+
+[29
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/Mod3Poly.pdf>] [30
 
@@ -851,33 +876,37 @@ Package pdftex.def Info: Mod3Poly.pdf  used on input line 473.
 ] [32
 
 ]
-<PascalMod3.pdf, id=301, 677.97493pt x 589.8487pt>
+<PascalMod3.pdf, id=2324, 677.97493pt x 589.8487pt>
 File: PascalMod3.pdf Graphic file (type pdf)
 <use PascalMod3.pdf>
-Package pdftex.def Info: PascalMod3.pdf  used on input line 520.
+Package pdftex.def Info: PascalMod3.pdf  used on input line 517.
 (pdftex.def)             Requested size: 250.8468pt x 218.2406pt.
- [33
+
+Overfull \vbox (11.4088pt too high) detected at line 517
+ []
+
+[33
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/PascalMod3.pdf>]
-<newCoordinate.png, id=313, 640.64343pt x 241.65282pt>
+<newCoordinate.png, id=2394, 640.64343pt x 241.65282pt>
 File: newCoordinate.png Graphic file (type png)
 <use newCoordinate.png>
-Package pdftex.def Info: newCoordinate.png  used on input line 535.
+Package pdftex.def Info: newCoordinate.png  used on input line 532.
 (pdftex.def)             Requested size: 249.84993pt x 94.24422pt.
  [34
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/newCoordinate.png>] [35
 
 ]
-<Mod6.pdf, id=324, 433.62pt x 432.61626pt>
+<Mod6.pdf, id=2526, 433.62pt x 432.61626pt>
 File: Mod6.pdf Graphic file (type pdf)
 <use Mod6.pdf>
-Package pdftex.def Info: Mod6.pdf  used on input line 562.
+Package pdftex.def Info: Mod6.pdf  used on input line 559.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
-<mod2,3.pdf, id=325, 433.62pt x 432.61626pt>
+<mod2,3.pdf, id=2527, 433.62pt x 432.61626pt>
 File: mod2,3.pdf Graphic file (type pdf)
 <use mod2,3.pdf>
-Package pdftex.def Info: mod2,3.pdf  used on input line 562.
+Package pdftex.def Info: mod2,3.pdf  used on input line 559.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
  [36
 
@@ -895,14 +924,14 @@ pdfTeX warning: pdflatex.exe (file c:/Users/Ankith A Das/Documents/Math2916/Late
 ] [41
 
 ]
-<Mod6CP.pdf, id=359, 433.62pt x 432.61626pt>
+<Mod6CP.pdf, id=2919, 433.62pt x 432.61626pt>
 File: Mod6CP.pdf Graphic file (type pdf)
 <use Mod6CP.pdf>
-Package pdftex.def Info: Mod6CP.pdf  used on input line 661.
+Package pdftex.def Info: Mod6CP.pdf  used on input line 658.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
 File: Mod6.pdf Graphic file (type pdf)
 <use Mod6.pdf>
-Package pdftex.def Info: Mod6.pdf  used on input line 661.
+Package pdftex.def Info: Mod6.pdf  used on input line 658.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
  [42
 
@@ -922,43 +951,67 @@ Package pdftex.def Info: Mod6.pdf  used on input line 661.
 
 ] [50
 
-] [51
-
 ]
-<GlobalMod2.pdf, id=417, 433.62pt x 432.61626pt>
+<GlobalMod2.pdf, id=3510, 433.62pt x 432.61626pt>
 File: GlobalMod2.pdf Graphic file (type pdf)
 <use GlobalMod2.pdf>
-Package pdftex.def Info: GlobalMod2.pdf  used on input line 821.
+Package pdftex.def Info: GlobalMod2.pdf  used on input line 819.
 (pdftex.def)             Requested size: 216.80946pt x 216.3076pt.
- [52
 
- <c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod2.pdf>]
-<GlobalMod3.pdf, id=425, 433.62pt x 432.61626pt>
+Overfull \vbox (9.4758pt too high) detected at line 819
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 812--819
+[][][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51
+
+] [52 <c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod2.pdf>]
+<GlobalMod3.pdf, id=3644, 433.62pt x 432.61626pt>
 File: GlobalMod3.pdf Graphic file (type pdf)
 <use GlobalMod3.pdf>
-Package pdftex.def Info: GlobalMod3.pdf  used on input line 829.
+Package pdftex.def Info: GlobalMod3.pdf  used on input line 827.
 (pdftex.def)             Requested size: 216.80946pt x 216.3076pt.
- [53
+
+Overfull \vbox (9.4758pt too high) detected at line 827
+ []
+
+[53
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod3.pdf>]
-<GlobalMod5.pdf, id=433, 433.62pt x 432.61626pt>
+<GlobalMod5.pdf, id=3711, 433.62pt x 432.61626pt>
 File: GlobalMod5.pdf Graphic file (type pdf)
 <use GlobalMod5.pdf>
-Package pdftex.def Info: GlobalMod5.pdf  used on input line 837.
+Package pdftex.def Info: GlobalMod5.pdf  used on input line 835.
 (pdftex.def)             Requested size: 216.80946pt x 216.3076pt.
- [54
+
+Overfull \vbox (9.4758pt too high) detected at line 835
+ []
+
+[54
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod5.pdf>]
-<GlobalMod7.pdf, id=442, 433.62pt x 432.61626pt>
+<GlobalMod7.pdf, id=3779, 433.62pt x 432.61626pt>
 File: GlobalMod7.pdf Graphic file (type pdf)
 <use GlobalMod7.pdf>
-Package pdftex.def Info: GlobalMod7.pdf  used on input line 845.
+Package pdftex.def Info: GlobalMod7.pdf  used on input line 843.
 (pdftex.def)             Requested size: 216.80946pt x 216.3076pt.
- [55
+
+Overfull \vbox (9.4758pt too high) detected at line 843
+ []
+
+[55
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/GlobalMod7.pdf>] [56
 
 ] [57
+
+] [58
 
 ]
 \tf@nav=\write7
@@ -970,27 +1023,27 @@ Package pdftex.def Info: GlobalMod7.pdf  used on input line 845.
 \tf@snm=\write9
 \openout9 = `doc.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 868.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 868.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 875.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 875.
  (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 868.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 868.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 875.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 875.
 Package rerunfilecheck Info: File `doc.out' has not changed.
 (rerunfilecheck)             Checksum: A572D02289430DB17D215C19E25132D9;651.
  ) 
 Here is how much of TeX's memory you used:
- 18849 strings out of 492649
- 359148 string characters out of 6133385
- 457554 words of memory out of 5000000
- 22187 multiletter control sequences out of 15000+600000
- 14834 words of font info for 54 fonts, out of 8000000 for 9000
+ 18948 strings out of 492649
+ 362414 string characters out of 6133385
+ 495999 words of memory out of 5000000
+ 22277 multiletter control sequences out of 15000+600000
+ 15140 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,12n,55p,846b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.pdf" (57 pages, 5840915 bytes).
+ 56i,19n,56p,846b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.pdf" (58 pages, 5992850 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 126 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4119 PDF objects out of 4296 (max. 8388607)
+ 3902 compressed objects within 40 object streams
+ 128 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 
