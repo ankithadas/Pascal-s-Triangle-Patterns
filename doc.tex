@@ -19,7 +19,7 @@
 \graphicspath{{figures/}}
 \mode<presentation>
 {
-    \usetheme{Singapore}
+    %\usetheme{Singapore}
 }
 \usenavigationsymbolstemplate{} % This turns off the annoying string of symbols in the bottom right
 
@@ -89,13 +89,14 @@
 \end{frame}
 \begin{frame}
     \frametitle{Pascal's Triangle}
-    Let's look at it in a few different ways \\
-    It is observed by coloring 
+    %We will look at the patterns when we color Pascal's triangle \\
     \begin{itemize}
-        \item all odd numbers black
-        \item all even numbers white
+        \item It is observed by coloring 
+        \begin{enumerate}
+            \item all odd numbers black
+            \item all even numbers white
+        \end{enumerate}
     \end{itemize}
-
     \begin{figure}
         \centering
         \includegraphics[scale=0.8]{Mod2,7.pdf}
@@ -112,8 +113,8 @@
 \begin{frame}
     \frametitle{Pascal's Triangle}
     \begin{itemize}
-        \item
-        Can also be formulated through binomial coefficients
+        \item So how do we formulate this pattern ?
+        %Can also be formulated through binomial coefficients
         \begin{align*}
             (1+x)^{0} &=\qquad 1 \\
             (1+x)^{1} &=\quad 1+1 x \\
@@ -154,8 +155,8 @@
 \begin{frame}
     \frametitle{Pascal's Triangle}
     \begin{itemize}
-        \item
-        Ex: Divisibility by 2 can be followed from addition rule 
+        \item In the odd,even coloring case, our problem simplifies to
+        %Ex: Divisibility by 2 can be followed from addition rule 
         \begin{table}[H]
             \begin{tabular}{|lll|}
                 \hline
@@ -164,14 +165,14 @@
                 even & even & even \\
                 odd  & odd  & even \\
                 odd  & even & odd  \\
-                odd  & odd  & odd  \\
+                even & odd & odd  \\
                 \hline
             \end{tabular}
+            % Add image to side 
         \end{table}
-        \item
-        Can we extend this idea of divisibility to other numbers ?
-        \item
-        What patterns do we get ? Global pattern? Why? ...IFS
+        %\item Can we extend this idea of divisibility to other numbers ?
+        \item What global patterns do we get? How are they related to binomial coefficient? These are some of the questions that I will try to answer.
+        %\item What patterns do we get ? Global pattern? Why? ...IFS
     \end{itemize}
 \end{frame}
 \section{Cellular Automata}
@@ -179,43 +180,45 @@
 \begin{frame}
     \frametitle{Cellular Automata}
     \begin{itemize}
-        \item
-        Prefect feedback machines. They are mathematically finite state machines
-        \item
-        Each cell has one out of $p$ states. \textit{p-state} automata
-        \item
-        Can be 1D, 2D \dots
-        \item
-        To run cellular automata, we need 2 pieces of information 
+        % \item Prefect feedback machines. They are mathematically finite state machines
+        %\item Each cell has one out of $p$ states. \textit{p-state} automata
+        \item Consists of a grid of cells, each one with a finite number of states, like 1 or 0.
+        \item For each cell, a neighborhood is defined.
+        \item Can be 1-D, 2-D \dots
+        \item To run cellular automata, we need 2 pieces of information 
         \begin{enumerate}
             \item Initial state of cells 
-            \item Rules to describe new cell state from the states of a group of cells from the previous layer 
+            %\item Rules to describe new cell state from the states of a group of cells from the previous layer
+            \item Fixed set of rules that determine the state of new cell depending upon the states of current and neighborhood cells.
         \end{enumerate}
         \item The rules should not depend on the position of the group of cells within the layer.
-        \begin{figure}
-            \includegraphics[scale = 0.5]{fig1.png} 
-        \end{figure}
+        % Under review 
+        % \begin{figure}
+        %     \includegraphics[scale = 0.5]{fig1.png} 
+        % \end{figure}
     \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \frametitle{Cellular Automata}
-    \begin{itemize}
-        \item More kinds of rules
-        \begin{figure}[H]
-            \includegraphics[scale = 0.37]{fig2}
-            \caption{(a) is a four rule configuration and (b) is a 8 rule configuration}
-        \end{figure}
-    \end{itemize}
-\end{frame}
+%% Under Review 
+% \begin{frame}
+%     \frametitle{Cellular Automata}
+%     \begin{itemize}
+%         \item More kinds of rules
+%         \begin{figure}[H]
+%             \includegraphics[scale = 0.37]{fig2}
+%             \caption{(a) is a four rule configuration and (b) is a 8 rule configuration}
+%         \end{figure}
+%     \end{itemize}
+% \end{frame}
 
 \begin{frame}
     \frametitle{Cellular Automata}
     So lets run some 
     \begin{figure}
         \includegraphics[scale=0.42]{fig3.png}
-        \caption{13 Generations of Rule 60 Elementary CA}
-        % Add numbers and details to this figure, Give it to Gautam to make changes
+        \caption{13 Generations of a 1-D Cellular Automata}
+        %\caption{13 Generations of Rule 60 Elementary CA}
+        % Add the rule details to the figure
     \end{figure}
 \end{frame}
 
@@ -225,13 +228,13 @@
     \begin{itemize}
         \item Simplest form of 1D Cellular Automata (CA)
         \item 2 State CA
-        \item Next generation depends on itself,cell to the left and, cell to the right.
-        \item Total number of rules are $2^{2^3} = 256$
+        \item Next generation depends on itself,cell to the left and, cell to the right (Neighbors).
         \item All the rules can be numbered in a nice way using binary
         \begin{figure}[H]
             \includegraphics[scale=0.5]{fig1.png}
             \caption{Elementary rule 30 = $(00011110)_2$}
         \end{figure}
+        \item Total number of rules are $2^{2^3} = 256$
         \item Mathematica can do this for you very easily using CellularAutomaton[ ]
     \end{itemize}
 \end{frame}
@@ -253,13 +256,13 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}
-    \frametitle{Elementary Cellular Automata}
-    \begin{figure}
-        \includegraphics[scale=0.4]{sier2.pdf}
-        \caption{Rule 90.}
-    \end{figure}
-\end{frame}
+% \begin{frame}
+%     \frametitle{Elementary Cellular Automata}
+%     \begin{figure}
+%         \includegraphics[scale=0.4]{sier2.pdf}
+%         \caption{Rule 90.}
+%     \end{figure}
+% \end{frame}
 
 \begin{frame}
     \frametitle{Elementary Cellular Automata}
@@ -270,14 +273,25 @@
     Kinda chaotic ?
 \end{frame}
 \subsection{2D CA}
+
+\begin{frame}
+    \centering \LARGE
+    Let's take it up a notch and see what happens in 2-D...
+\end{frame}
+
+\begin{frame}
+    \centering \Large
+    Let's play the \textit{Game of Life......}
+\end{frame}
+
 \begin{frame}
     \frametitle{2D CA: Game of life...}
     \begin{itemize}
         % Maybe I can ger rid of this one 
         %\item Was very popular through the work of John Horton Conway in 1970's
-        \item Was made popular through the work of John Horton Conway
-        \item 2-state CA
-        \item Rules:
+        %\item Was made popular through the work of John Horton Conway
+        %\item 2-state CA
+        \item The rules are...
         \begin{enumerate}
             \item Cell survives when exactly 2 or 3 of it's 8 neighbors are alive.
             \item If more than 3 neighbors are alive, the cell dies from over-crowdedness.
@@ -289,10 +303,6 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \centering
-    Let's play the Game of Life......
-\end{frame}
 
 \begin{frame}
     \frametitle{Cellular Automata}
@@ -370,9 +380,11 @@
         %\item Again, this is a 2-state CA
     \end{itemize}
 \end{frame}
-\subsection{CA,Pascal's Triangle and Polynomials}
+\subsection{Cellular Automata and polynomials}
+%\subsection{CA,Pascal's Triangle and Polynomials}
 \begin{frame}
-    \frametitle{CA, Pascal's Triangle and Polynomial}
+    \frametitle{CA and polynomials}
+    %\frametitle{CA, Pascal's Triangle and Polynomial}
     \begin{itemize}
         \item Let's look at the powers of $r(x) = 1 + x$:
         \begin{align*}
@@ -392,7 +404,8 @@
 % Need to bring changes to this slide 
 % Maybe add a figure to give better explanation of last point
 \begin{frame}
-    \frametitle{CA, Pascal's Triangle and Polynomial}
+    \frametitle{CA and polynomials}
+    %\frametitle{CA, Pascal's Triangle and Polynomial}
     \begin{itemize}
         \item Looking at the divisibility properties of $a_k(n)$ with 2
         \begin{align*}
@@ -412,7 +425,7 @@
                 \hline
             \end{tabular}
         \end{table}
-        \item Exactly same rule set used to make Pascal Triangle
+        \item Exactly same rule set used to color the Pascal Triangle
     \end{itemize}
 \end{frame}
 
@@ -440,7 +453,7 @@
             (r(x))^0 &= 1 \\
             (r(x))^1 &= 1+2x \\
             (r(x))^2 &= 1 + 4x + 4x^2\\
-            %(r(x))^3 &= 1 + 6x + 12x^2 + 8x^3 \\
+            (r(x))^3 &= 1 + 6x + 12x^2 + 8x^3 \\
             &\vdots \\
             (r(x))^n &= a_0(n) + a_1(n)x + \dots + a_n(n)x^n
         \end{align*}
@@ -499,13 +512,15 @@
 \end{frame}
 
 \section{Binomial Coefficients and Divisibility}
+
+% Under review, needs changes 
 \begin{frame}
     \frametitle{Binomial Coefficients and Divisibility}
     \begin{itemize}
         \item Discuss the question of whether a binomial coefficient is divisible by $p$ or not. 
-        \item Black and white coloring of the Pascal triangle depending on divisibility with p
+        \item Black and white coloring of the Pascal triangle depending on divisibility with p (mod p)
         \item We will also see that in order to understand the patterns formed by mod $p$, we should look at the patters formed by the prime factors of $p$ 
-        \item We will look at a direct, non-recursive computation of divisibility by p
+        \item We will look at a direct, non-recursive computation of binomial divisibility by p
         %\item This was solved in an elegant manner by Ernest Eduard Kummer.
     \end{itemize}
 \end{frame}
@@ -545,7 +560,7 @@
             P(pq) = P(p) \cup P(q) \text{, if $p \neq q$, $p,q$ prime}
         \end{equation*}
         \item It is the negation of the statement, if $p$ and $q$ divides $r$, then $r$ is divisible by both $p$ and $q$.
-        \item Ex: $P(6) = P(3) \cup P(2)$. This generalization can be extended to any integer
+        \item Ex: $P(6) = P(2) \cup P(3)$ %This generalization can be extended to any integer
     \end{itemize}
 \end{frame}
 
@@ -556,6 +571,7 @@
         \hfill
         \includegraphics[width=0.475\textwidth]{mod2,3.pdf}
         \caption{Right shows mod 6 pattern and left shows the union of mod 2 (Red) and mod 3 (Blue)}
+        % Add a few more figures, so as to give a more clear description of this union. 
     \end{figure}
 \end{frame}
 
@@ -654,6 +670,8 @@
         \hfill
         \includegraphics[width=0.475\textwidth]{Mod6.pdf}
         \caption{$P(6)$ generated using carry function (left) vs binomial divisibility (right)}
+        % Make them the same size 
+        % Put more figures also, define for P(2) P(3)...
     \end{figure}
         
 \end{frame}
@@ -811,37 +829,37 @@
 \end{frame}
 
 %need to improve this section, very less detail about the figures 
-\begin{frame}
-    \begin{figure}
-        \centering
-        \includegraphics[scale=0.5]{GlobalMod2.pdf}
-        \caption{Limit of Mod 2 IFS}
-    \end{figure}
-\end{frame}
+% \begin{frame}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[scale=0.5]{GlobalMod2.pdf}
+%         \caption{Limit of Mod 2 IFS}
+%     \end{figure}
+% \end{frame}
 
-\begin{frame}
-    \begin{figure}
-        \centering
-        \includegraphics[scale=0.5]{GlobalMod3.pdf}
-        \caption{Limit of Mod 3 IFS.}
-    \end{figure}
-\end{frame}
+% \begin{frame}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[scale=0.5]{GlobalMod3.pdf}
+%         \caption{Limit of Mod 3 IFS.}
+%     \end{figure}
+% \end{frame}
 
-\begin{frame}
-    \begin{figure}
-        \centering
-        \includegraphics[scale=0.5]{GlobalMod5}
-        \caption{Limit of Mod 5 IFS.}
-    \end{figure}
-\end{frame}
+% \begin{frame}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[scale=0.5]{GlobalMod5}
+%         \caption{Limit of Mod 5 IFS.}
+%     \end{figure}
+% \end{frame}
 
-\begin{frame}
-    \begin{figure}
-        \centering
-        \includegraphics[scale=0.5]{GlobalMod7}
-        \caption{Limit of Mod 7 IFS.}
-    \end{figure}
-\end{frame}
+% \begin{frame}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[scale=0.5]{GlobalMod7}
+%         \caption{Limit of Mod 7 IFS.}
+%     \end{figure}
+% \end{frame}
 
 \section*{}
 % Fix this issue, Slide should be out of all sections 
