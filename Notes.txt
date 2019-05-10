@@ -6,10 +6,10 @@ Slide 5: It observed by coloring odd cells black and even cells white,
 Slide 6:
 Slide 7: We can look at the binomial expansion of 1+x, we know each coefficient is given by the formula --
 Slide 8: But this is a inefficient was computing whether the coefficient is divisible by 2 or not since
-Slide 9: 
+Slide 9: The idea of coloring cells, depending on the states of it's neighbors is the basic idea of cellular automata, which I am going to talk about in more detail
 Slide 10: // read the slides nothing much here
-Slide 11: As you can see, each new generation of cells is only depended on the previous generation. This is the basic idea of Cellular automata 
-Slide 12: (Let's generalize this) Let's dig a bit more into 1D CA. The simplest kind is Elementary CA. Next generation of cells depend only cell itself, and it's left and right neighbors. If you order all the rules, you can number each rule. You need 8 rules to completely define the CA, so the total number of rules are 256. 
+Slide 11: As you can see, each new generation of cells is only depended on the previous generation. This is the basic idea of Cellular automata.
+Slide 12: Let's dig a bit more into 1D CA. The simplest kind is Elementary CA. Next generation of cells depend only cell itself, and it's left and right neighbors. If you order all the rules, you can number each rule. You need 8 rules to completely define the CA, so the total number of rules are 256. 
 Slide 16: Let's play a Game, The Game of life! Each cell has 8 neighbors. The state of the cell is completely defined by the number of alive neighbors. This is an important note, the relative position of the alive and dead cells don't matter for this specific rule. It's also known as a totalistic CA 
 Slide 18: Show one out of eight rule 
 Slide 19: Remember, Game of life is just one set of rules. "Show majority rule"

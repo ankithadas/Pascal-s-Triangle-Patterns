@@ -157,26 +157,33 @@
     \begin{itemize}
         \item In the odd,even coloring case, our problem simplifies to
         %Ex: Divisibility by 2 can be followed from addition rule 
-        \begin{table}[H]
-            \begin{tabular}{|lll|}
-                \hline
-                $\binom{n+1}{k} = $ & $\binom{n}{k-1} + $& $\binom{n}{k}$\\
-                \hline
-                even & even & even \\
-                odd  & odd  & even \\
-                odd  & even & odd  \\
-                even & odd & odd  \\
-                \hline
-            \end{tabular}
-            % Add image to side 
-        \end{table}
+        \begin{minipage}{\textwidth}
+            \begin{table}[H]
+                \begin{tabular}{|lll|}
+                    \hline
+                    $\binom{n+1}{k} = $ & $\binom{n}{k-1} + $& $\binom{n}{k}$\\
+                    \hline
+                    even & even & even \\
+                    odd  & odd  & even \\
+                    odd  & even & odd  \\
+                    even & odd & odd  \\
+                    \hline
+                \end{tabular}
+            \end{table}
+        \end{minipage}
+        \begin{minipage}{\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[scale=0.7]{Mod2,7.pdf}
+            \end{figure}
+        \end{minipage}
         %\item Can we extend this idea of divisibility to other numbers ?
-        \item What global patterns do we get? How are they related to binomial coefficient? These are some of the questions that I will try to answer.
+        %\item What global patterns do we get? How are they related to binomial coefficient? These are some of the questions that I will try to answer.
         %\item What patterns do we get ? Global pattern? Why? ...IFS
     \end{itemize}
 \end{frame}
-\section{Cellular Automata}
 
+\section{Cellular Automata}
 \begin{frame}
     \frametitle{Cellular Automata}
     \begin{itemize}
@@ -226,7 +233,7 @@
 \begin{frame}
     \frametitle{Elementary Cellular Automata}
     \begin{itemize}
-        \item Simplest form of 1D Cellular Automata (CA)
+        \item Simplest form of Cellular Automata (CA)
         \item 2 State CA
         \item Next generation depends on itself,cell to the left and, cell to the right (Neighbors).
         \item All the rules can be numbered in a nice way using binary
@@ -341,7 +348,7 @@
             \includegraphics[scale=0.5]{VonNeigh.png}
         \end{figure}
         \item C = Center, N = North, E = East, S = South, W = West
-        \item Can represent every neighbor in Binary $(\text{CSWNE})_2$. Ex:$(01100)_2$ means S, W cells are alive, rest are dead
+        \item Can number the cell states in binary $(\text{CSWNE})_2$. Ex:$(01100)_2$ means S, W cells are alive, rest are dead
         \item Total number of sets of rules are $2^{2^5} \approx 4 \cdot 10^9$
         \item Two interesting examples are shown 
     \end{itemize}
