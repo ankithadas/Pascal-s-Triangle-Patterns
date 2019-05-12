@@ -195,27 +195,27 @@
 \end{frame}
 
 \section{Cellular Automata}
-\begin{frame}
-    \frametitle{Cellular Automata}
-    \begin{itemize}
-        % \item Prefect feedback machines. They are mathematically finite state machines
-        %\item Each cell has one out of $p$ states. \textit{p-state} automata
-        \item Consists of a grid of cells, each one with a finite number of states, like 1 or 0.
-        \item For each cell, a neighborhood is defined.
-        %\item Can be 1-D, 2-D \dots
-        \item To run cellular automata, we need 2 pieces of information 
-        \begin{enumerate}
-            \item Initial state of cells 
-            %\item Rules to describe new cell state from the states of a group of cells from the previous layer
-            \item Fixed set of rules (rule table) that determine the state of new cell depending upon the states of current and neighborhood cells.
-        \end{enumerate}
-        \item The rules should not depend on the position of the group of cells within the layer.
-        % Under review 
-        % \begin{figure}
-        %     \includegraphics[scale = 0.5]{fig1.png} 
-        % \end{figure}
-    \end{itemize}
-\end{frame}
+% \begin{frame}
+%     \frametitle{Cellular Automata}
+%     \begin{itemize}
+%         % \item Prefect feedback machines. They are mathematically finite state machines
+%         %\item Each cell has one out of $p$ states. \textit{p-state} automata
+%         \item Consists of a grid of cells, each one with a finite number of states, like 1 or 0.
+%         \item For each cell, a neighborhood is defined.
+%         %\item Can be 1-D, 2-D \dots
+%         \item To run cellular automata, we need 2 pieces of information 
+%         \begin{enumerate}
+%             \item Initial state of cells 
+%             %\item Rules to describe new cell state from the states of a group of cells from the previous layer
+%             \item Fixed set of rules (rule table) that determine the state of new cell depending upon the states of current and neighborhood cells.
+%         \end{enumerate}
+%         \item The rules should not depend on the position of the group of cells within the layer.
+%         % Under review 
+%         % \begin{figure}
+%         %     \includegraphics[scale = 0.5]{fig1.png} 
+%         % \end{figure}
+%     \end{itemize}
+% \end{frame}
 
 %% Under Review 
 % \begin{frame}
@@ -229,31 +229,54 @@
 %     \end{itemize}
 % \end{frame}
 
+
+\subsection{Elementary CA}
+\begin{frame}
+    \frametitle{Cellular Automata}
+    \begin{itemize}
+        \item Consists of a grid of cells, each one with a finite number of states, like 1 or 0.
+        \begin{figure}
+            \centering
+            \includegraphics[scale=0.4]{grid.pdf}
+        \end{figure}
+        \item Next generation depends on itself,cell to the left and, cell to the right (Neighbors).
+        \item A set of rules to describe new cell state from the states of a group of cells from the previous layer
+        %\item All the rules can be numbered in a nice way using binary
+        \begin{figure}[H]
+            \includegraphics[scale=0.5]{rulerule30}
+            %\caption{Elementary rule 30 = $(00011110)_2$}
+        \end{figure}
+        \item Ex:
+        \begin{figure}
+            \centering
+            \includegraphics[scale=0.4]{IMG.png}
+        \end{figure}
+        %\item Total number of rules are $2^{2^3} = 256$
+        %\item Mathematica can do this for you very easily using CellularAutomaton[ ]
+    \end{itemize}
+\end{frame}
+
 \begin{frame}
     \frametitle{Cellular Automata}
     So lets run some 
     \begin{figure}
-        \includegraphics[scale=0.42]{fig3.png}
+        \includegraphics[scale=0.3]{fig3.png}
+        \includegraphics[scale=0.6]{rule60.pdf}
         \caption{13 Generations of a 1-D Cellular Automata}
-        %\caption{13 Generations of Rule 60 Elementary CA}
-        % Add the rule details to the figure
     \end{figure}
 \end{frame}
 
-\subsection{Elementary CA}
 \begin{frame}
-    \frametitle{Elementary Cellular Automata}
     \begin{itemize}
-        \item Simplest form of Cellular Automata (CA)
-        \item 2 State CA
-        \item Next generation depends on itself,cell to the left and, cell to the right (Neighbors).
-        \item All the rules can be numbered in a nice way using binary
-        \begin{figure}[H]
-            \includegraphics[scale=0.5]{fig1.png}
-            \caption{Elementary rule 30 = $(00011110)_2$}
+        \item There $2\times2\times2=8$ binary states for each 3 cells.
+        \item So, there are a total of $2^8 = 256$ possible rule sets.
+        \item Each rule can be index with 8-bit binary
+        \begin{figure}
+            \centering
+            \includegraphics[scale=0.7]{rule60Num.pdf}
+            \caption{Rule $(00111100)_2 = 60$}
         \end{figure}
-        \item Total number of rules are $2^{2^3} = 256$
-        \item Mathematica can do this for you very easily using CellularAutomaton[ ]
+        \item 
     \end{itemize}
 \end{frame}
 
@@ -269,7 +292,8 @@
 \begin{frame}
     \frametitle{Elementary Cellular Automata}
     \begin{figure}
-        \includegraphics[scale=0.43]{seir.pdf}
+        \includegraphics[scale=0.5]{seir.pdf}
+        \includegraphics[scale=0.7]{rule60.pdf}
         \caption{Rule 60. Sierpinski Triangle*}
     \end{figure}
 \end{frame}
@@ -401,7 +425,7 @@
 \subsection{Cellular Automata and polynomials}
 %\subsection{CA,Pascal's Triangle and Polynomials}
 \begin{frame}
-    \frametitle{CA and polynomials}
+    \frametitle{CA and Polynomials}
     %\frametitle{CA, Pascal's Triangle and Polynomial}
     \begin{itemize}
         \item Let's look at the powers of $r(x) = 1 + x$:
@@ -409,7 +433,8 @@
             (r(x))^{0} &=1 \\
             (r(x))^{1} &=1+x \\
             (r(x))^{2} &=1+2 x+x^{2} \\
-            (r(x))^{3} &=1+3 x+3 x^{2}+x^{3} \\ & \vdots \\
+            %(r(x))^{3} &=1+3 x+3 x^{2}+x^{3} \\ 
+            & \vdots \\
             (r(x))^{n} &=a_{0}(n)+a_{1}(n) x+a_{2}(n) x^{2}+\cdots+a_{n}(n) x^{n} 
         \end{align*}
         \item By the addition rule of binomial coefficients

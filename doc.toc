@@ -1,6 +1,6 @@
 \beamer@sectionintoc {2}{Pascal's Triangle}{2}{0}{1}
 \beamer@sectionintoc {3}{Cellular Automata}{8}{0}{2}
-\beamer@subsectionintoc {3}{1}{Elementary CA}{10}{0}{2}
+\beamer@subsectionintoc {3}{1}{Elementary CA}{8}{0}{2}
 \beamer@subsectionintoc {3}{2}{2D CA}{14}{0}{2}
 \beamer@subsectionintoc {3}{3}{Cellular Automata and polynomials}{14}{0}{2}
 \beamer@sectionintoc {4}{Binomial Coefficients and Divisibility}{19}{0}{3}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.9)  12 MAY 2019 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.9)  13 MAY 2019 00:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -742,52 +742,84 @@ File: figures/Mod2,7.pdf Graphic file (type pdf)
 <use figures/Mod2,7.pdf>
 Package pdftex.def Info: figures/Mod2,7.pdf  used on input line 195.
 (pdftex.def)             Requested size: 129.61514pt x 114.14275pt.
-<figures/pascalRule.pdf, id=118, 433.62pt x 125.46875pt>
+<figures/pascalRule.pdf, id=118, 433.62pt x 126.4725pt>
 File: figures/pascalRule.pdf Graphic file (type pdf)
 <use figures/pascalRule.pdf>
 Package pdftex.def Info: figures/pascalRule.pdf  used on input line 195.
-(pdftex.def)             Requested size: 130.087pt x 37.6409pt.
+(pdftex.def)             Requested size: 130.087pt x 37.94203pt.
  [7
 
- <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/pascalRule.pdf>] [8
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/pascalRule.pdf>]
+<figures/grid.pdf, id=127, 433.62pt x 45.16875pt>
+File: figures/grid.pdf Graphic file (type pdf)
+<use figures/grid.pdf>
+Package pdftex.def Info: figures/grid.pdf  used on input line 257.
+(pdftex.def)             Requested size: 173.44492pt x 18.06717pt.
+<figures/rulerule30.pdf, id=128, 433.62pt x 60.225pt>
+File: figures/rulerule30.pdf Graphic file (type pdf)
+<use figures/rulerule30.pdf>
+Package pdftex.def Info: figures/rulerule30.pdf  used on input line 257.
+(pdftex.def)             Requested size: 216.80946pt x 30.11241pt.
+<figures/IMG.png, id=129, 505.89pt x 76.78688pt>
+File: figures/IMG.png Graphic file (type png)
+<use figures/IMG.png>
+Package pdftex.def Info: figures/IMG.png  used on input line 257.
+(pdftex.def)             Requested size: 202.3524pt x 30.7142pt.
+ [8
 
-]
-<figures/fig3.png, id=132, 549.7338pt x 374.3586pt>
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/grid.pdf> <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rulerule30.pdf
+
+pdfTeX warning: pdflatex.exe (file c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rulerule30.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IMG.png>]
+<figures/fig3.png, id=140, 978.65625pt x 645.91313pt>
 File: figures/fig3.png Graphic file (type png)
 <use figures/fig3.png>
-Package pdftex.def Info: figures/fig3.png  used on input line 241.
-(pdftex.def)             Requested size: 230.88661pt x 157.22954pt.
+Package pdftex.def Info: figures/fig3.png  used on input line 267.
+(pdftex.def)             Requested size: 293.59914pt x 193.77544pt.
+<figures/rule60.pdf, id=141, 40.14398pt x 296.0296pt>
+File: figures/rule60.pdf Graphic file (type pdf)
+<use figures/rule60.pdf>
+Package pdftex.def Info: figures/rule60.pdf  used on input line 267.
+(pdftex.def)             Requested size: 24.08655pt x 177.61913pt.
  [9
 
- <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig3.png>]
-<figures/fig1.png, id=140, 477.785pt x 68.255pt>
-File: figures/fig1.png Graphic file (type png)
-<use figures/fig1.png>
-Package pdftex.def Info: figures/fig1.png  used on input line 258.
-(pdftex.def)             Requested size: 238.8919pt x 34.12741pt.
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig3.png> <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60.pdf>]
+<figures/rule60Num.pdf, id=149, 403.53558pt x 50.85774pt>
+File: figures/rule60Num.pdf Graphic file (type pdf)
+<use figures/rule60Num.pdf>
+Package pdftex.def Info: figures/rule60Num.pdf  used on input line 281.
+(pdftex.def)             Requested size: 282.47298pt x 35.60016pt.
  [10
 
- <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig1.png>]
-<figures/fig4.pdf, id=147, 433.62pt x 434.62375pt>
+ <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60Num.pdf>]
+<figures/fig4.pdf, id=163, 433.62pt x 432.61626pt>
 File: figures/fig4.pdf Graphic file (type pdf)
 <use figures/fig4.pdf>
-Package pdftex.def Info: figures/fig4.pdf  used on input line 267.
-(pdftex.def)             Requested size: 186.45296pt x 186.88457pt.
+Package pdftex.def Info: figures/fig4.pdf  used on input line 290.
+(pdftex.def)             Requested size: 186.45296pt x 186.02136pt.
  [11
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig4.pdf>]
-<figures/seir.pdf, id=157, 433.62pt x 432.61626pt>
+<figures/seir.pdf, id=174, 433.62pt x 432.61626pt>
 File: figures/seir.pdf Graphic file (type pdf)
 <use figures/seir.pdf>
-Package pdftex.def Info: figures/seir.pdf  used on input line 275.
-(pdftex.def)             Requested size: 186.45296pt x 186.02136pt.
- [12
+Package pdftex.def Info: figures/seir.pdf  used on input line 299.
+(pdftex.def)             Requested size: 216.80946pt x 216.3076pt.
+File: figures/rule60.pdf Graphic file (type pdf)
+<use figures/rule60.pdf>
+Package pdftex.def Info: figures/rule60.pdf  used on input line 299.
+(pdftex.def)             Requested size: 28.10057pt x 207.2193pt.
+
+Overfull \vbox (0.57893pt too high) detected at line 299
+ []
+
+[12
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/seir.pdf>]
-<figures/rule30.pdf, id=165, 736.7525pt x 384.43625pt>
+<figures/rule30.pdf, id=182, 736.7525pt x 384.43625pt>
 File: figures/rule30.pdf Graphic file (type pdf)
 <use figures/rule30.pdf>
-Package pdftex.def Info: figures/rule30.pdf  used on input line 292.
+Package pdftex.def Info: figures/rule30.pdf  used on input line 316.
 (pdftex.def)             Requested size: 287.33232pt x 149.92952pt.
  [13
 
@@ -796,53 +828,53 @@ Package pdftex.def Info: figures/rule30.pdf  used on input line 292.
 ] [15
 
 ]
-<figures/Mod2Poly.pdf, id=187, 433.62pt x 432.61626pt>
+<figures/Mod2Poly.pdf, id=203, 433.62pt x 432.61626pt>
 File: figures/Mod2Poly.pdf Graphic file (type pdf)
 <use figures/Mod2Poly.pdf>
-Package pdftex.def Info: figures/Mod2Poly.pdf  used on input line 459.
+Package pdftex.def Info: figures/Mod2Poly.pdf  used on input line 484.
 (pdftex.def)             Requested size: 173.44492pt x 173.04343pt.
  [16
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2Poly.pdf>] [17
 
 ]
-<figures/Mod3Poly.pdf, id=200, 433.62pt x 432.61626pt>
+<figures/Mod3Poly.pdf, id=216, 433.62pt x 432.61626pt>
 File: figures/Mod3Poly.pdf Graphic file (type pdf)
 <use figures/Mod3Poly.pdf>
-Package pdftex.def Info: figures/Mod3Poly.pdf  used on input line 501.
+Package pdftex.def Info: figures/Mod3Poly.pdf  used on input line 526.
 (pdftex.def)             Requested size: 86.72246pt x 86.52171pt.
  [18
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod3Poly.pdf>] [19
 
 ]
-<figures/PascalMod3.pdf, id=215, 677.97493pt x 589.8487pt>
+<figures/PascalMod3.pdf, id=231, 677.97493pt x 589.8487pt>
 File: figures/PascalMod3.pdf Graphic file (type pdf)
 <use figures/PascalMod3.pdf>
-Package pdftex.def Info: figures/PascalMod3.pdf  used on input line 551.
+Package pdftex.def Info: figures/PascalMod3.pdf  used on input line 576.
 (pdftex.def)             Requested size: 244.07079pt x 212.34537pt.
  [20
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalMod3.pdf>]
-<figures/newCoordinate.png, id=226, 640.64343pt x 241.65282pt>
+<figures/newCoordinate.png, id=242, 640.64343pt x 241.65282pt>
 File: figures/newCoordinate.png Graphic file (type png)
 <use figures/newCoordinate.png>
-Package pdftex.def Info: figures/newCoordinate.png  used on input line 566.
+Package pdftex.def Info: figures/newCoordinate.png  used on input line 591.
 (pdftex.def)             Requested size: 249.84993pt x 94.24422pt.
  [21
 
  <c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/newCoordinate.png>] [22
 
 ]
-<figures/Mod6.pdf, id=239, 433.62pt x 432.61626pt>
+<figures/Mod6.pdf, id=255, 433.62pt x 432.61626pt>
 File: figures/Mod6.pdf Graphic file (type pdf)
 <use figures/Mod6.pdf>
-Package pdftex.def Info: figures/Mod6.pdf  used on input line 594.
+Package pdftex.def Info: figures/Mod6.pdf  used on input line 619.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
-<figures/mod2,3.pdf, id=240, 433.62pt x 432.61626pt>
+<figures/mod2,3.pdf, id=256, 433.62pt x 432.61626pt>
 File: figures/mod2,3.pdf Graphic file (type pdf)
 <use figures/mod2,3.pdf>
-Package pdftex.def Info: figures/mod2,3.pdf  used on input line 594.
+Package pdftex.def Info: figures/mod2,3.pdf  used on input line 619.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
  [23
 
@@ -860,14 +892,14 @@ pdfTeX warning: pdflatex.exe (file c:/Users/Ankith A Das/Documents/Math2916/Late
 ] [28
 
 ]
-<figures/Mod6CP.pdf, id=276, 433.62pt x 432.61626pt>
+<figures/Mod6CP.pdf, id=292, 433.62pt x 432.61626pt>
 File: figures/Mod6CP.pdf Graphic file (type pdf)
 <use figures/Mod6CP.pdf>
-Package pdftex.def Info: figures/Mod6CP.pdf  used on input line 695.
+Package pdftex.def Info: figures/Mod6CP.pdf  used on input line 720.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
 File: figures/Mod6.pdf Graphic file (type pdf)
 <use figures/Mod6.pdf>
-Package pdftex.def Info: figures/Mod6.pdf  used on input line 695.
+Package pdftex.def Info: figures/Mod6.pdf  used on input line 720.
 (pdftex.def)             Requested size: 159.4798pt x 159.10834pt.
  [29
 
@@ -903,27 +935,27 @@ Package pdftex.def Info: figures/Mod6.pdf  used on input line 695.
 \tf@snm=\write9
 \openout9 = `doc.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 918.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 918.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 943.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 943.
  (c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 918.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 918.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 943.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 943.
 Package rerunfilecheck Info: File `doc.out' has not changed.
-(rerunfilecheck)             Checksum: 35B9B7B1B6D87A788DBD673166222F80;648.
+(rerunfilecheck)             Checksum: 45774483F78A7F469D36C21C8F54FE85;647.
  ) 
 Here is how much of TeX's memory you used:
- 18730 strings out of 492649
- 357724 string characters out of 6133385
- 455554 words of memory out of 5000000
- 22108 multiletter control sequences out of 15000+600000
+ 18750 strings out of 492649
+ 358242 string characters out of 6133385
+ 455552 words of memory out of 5000000
+ 22124 multiletter control sequences out of 15000+600000
  15140 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,13n,55p,846b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.pdf" (40 pages, 418517 bytes).
+Output written on "c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.pdf" (40 pages, 434764 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 322 compressed objects within 4 object streams
+ 432 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
  92 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
