@@ -24,20 +24,22 @@
 \usenavigationsymbolstemplate{} % This turns off the annoying string of symbols in the bottom right
 
 % \usepackage{beamerthemesplit} // Activate for custom appearance
-\title{Pascal's Triangle: Cellular Automata and Attractors}
+\title{Is Pascal's Triangle a Fractal ?}
 \author{Ankith A Das}
 \institute{The University of Sydney}
 \date{\today}
 
 \begin{document}
 \frame{\titlepage}
-\begin{frame}
-    \textit{Mathematics is the art of giving the \textcolor{red}{same name} to \textcolor{blue}{different things}}
-\\[5pt]
-\rightline{{\rm --- Henri Ponicar\'e}}
-\end{frame}
+
+% \begin{frame}
+%     \textit{Mathematics is the art of giving the \textcolor{red}{same name} to \textcolor{blue}{different things}}
+% \\[5pt]
+% \rightline{{\rm --- Henri Ponicar\'e}}
+% \end{frame}
+
 \section[Outline]{}
-\frame{\tableofcontents}
+%\frame{\tableofcontents}
 
 \section{Pascal's Triangle}
 \begin{frame}
@@ -75,8 +77,7 @@
             \begin{array}{cccccccc}
              1 & 7 & 21 & 35 & 35 & 21 & 7 & 1 \\
             \end{array}
-             \\
-            \end{array}
+        \end{array}
     \end{equation*}
     \begin{itemize}
         % Add an image of pascal Triangle
@@ -107,13 +108,14 @@
     \begin{figure}
         \centering 
         \includegraphics[scale=0.8]{PascalMod2.pdf}
+        \caption{A bigger picture}
     \end{figure}
 \end{frame}
 
 \begin{frame}
     \frametitle{Pascal's Triangle}
     \begin{itemize}
-        \item So how do we formulate this pattern ?
+        \item So how can we formulate this pattern ? We can begin by looking at binomial coefficients
         %Can also be formulated through binomial coefficients
         \begin{align*}
             (1+x)^{0} &=\qquad 1 \\
@@ -133,50 +135,59 @@
 \begin{frame}
     \frametitle{Pascal's Triangle}
     \begin{itemize}
-        \item
-        Understanding the divisibility of binomial coefficients by computing them is a bad idea
+        %\item Understanding the divisibility of binomial coefficients by computing them is a bad idea
+        \item Checking if a binomial coefficient is odd or even by computing $\frac{n!}{(n-k)!k!}$ is a bad idea
         \begin{align*}
             50! = &3041409320171337804361260816606476884437\\
             &7641568960512000000000000   
         \end{align*}
-        Even if we use the recursive formula 
+        \item Even if we use the recursive formula 
         \begin{equation*}
             \binom{n+1}{k}= \binom{n}{k-1} + \binom{n}{k}
         \end{equation*}
         \begin{equation*}
             \binom{40}{20} = 137846528820 > 2^{32}
         \end{equation*}
-        which is a big number
+        which is a big number (computer has fixed precision)
         \item Fortunately, we don't need to compute these large numbers
         \end{itemize}
-    
 \end{frame}
 
+% Slide on HOLD!!!!
+%Let's take a small diversion
 \begin{frame}
     \frametitle{Pascal's Triangle}
     \begin{itemize}
-        \item In the odd,even coloring case, our problem simplifies to
-        %Ex: Divisibility by 2 can be followed from addition rule 
-        \begin{minipage}{\textwidth}
-            \begin{table}[H]
-                \begin{tabular}{|lll|}
-                    \hline
-                    $\binom{n+1}{k} = $ & $\binom{n}{k-1} + $& $\binom{n}{k}$\\
-                    \hline
-                    even & even & even \\
-                    odd  & odd  & even \\
-                    odd  & even & odd  \\
-                    even & odd & odd  \\
-                    \hline
-                \end{tabular}
-            \end{table}
-        \end{minipage}
-        \begin{minipage}{\textwidth}
-            \begin{figure}
-                \centering
-                \includegraphics[scale=0.7]{Mod2,7.pdf}
-            \end{figure}
-        \end{minipage}
+        \item In order to color a row in the triangle, we only need to know the color of the previous row
+        %\item In the odd,even coloring case, our problem simplifies to
+        %Ex: Divisibility by 2 can be followed from addition rule
+        \begin{columns}
+            \begin{column}{0.5\textwidth}
+                \begin{table}[H]
+                    \begin{tabular}{|lll|}
+                        \hline
+                        $\binom{n+1}{k} = $ & $\binom{n}{k-1} + $& $\binom{n}{k}$\\
+                        \hline
+                        even & even & even \\
+                        odd  & odd  & even \\
+                        odd  & even & odd  \\
+                        even & odd & odd  \\
+                        \hline
+                    \end{tabular}
+                \end{table}
+            \end{column}
+            \begin{column}{0.5\textwidth}
+                \begin{figure}
+                    \centering
+                    \includegraphics[scale=0.7]{Mod2,7.pdf}
+                \end{figure}
+            \end{column}
+        \end{columns} 
+        \begin{figure}
+            \centering
+            \includegraphics[scale=0.3]{pascalRule.pdf}
+        \end{figure}
+        \item The idea of looking at neighbor cells to determine the state of a new cell is the core idea of cellular automata
         %\item Can we extend this idea of divisibility to other numbers ?
         %\item What global patterns do we get? How are they related to binomial coefficient? These are some of the questions that I will try to answer.
         %\item What patterns do we get ? Global pattern? Why? ...IFS
@@ -191,12 +202,12 @@
         %\item Each cell has one out of $p$ states. \textit{p-state} automata
         \item Consists of a grid of cells, each one with a finite number of states, like 1 or 0.
         \item For each cell, a neighborhood is defined.
-        \item Can be 1-D, 2-D \dots
+        %\item Can be 1-D, 2-D \dots
         \item To run cellular automata, we need 2 pieces of information 
         \begin{enumerate}
             \item Initial state of cells 
             %\item Rules to describe new cell state from the states of a group of cells from the previous layer
-            \item Fixed set of rules that determine the state of new cell depending upon the states of current and neighborhood cells.
+            \item Fixed set of rules (rule table) that determine the state of new cell depending upon the states of current and neighborhood cells.
         \end{enumerate}
         \item The rules should not depend on the position of the group of cells within the layer.
         % Under review 
@@ -281,112 +292,112 @@
 \end{frame}
 \subsection{2D CA}
 
-\begin{frame}
-    \centering \LARGE
-    Let's take it up a notch and see what happens in 2-D...
-\end{frame}
+% \begin{frame}
+%     \centering \LARGE
+%     Let's take it up a notch and see what happens in 2-D...
+% \end{frame}
 
-\begin{frame}
-    \centering \Large
-    Let's play the \textit{Game of Life......}
-\end{frame}
+% \begin{frame}
+%     \centering \Large
+%     Let's play the \textit{Game of Life......}
+% \end{frame}
 
-\begin{frame}
-    \frametitle{2D CA: Game of life...}
-    \begin{itemize}
-        % Maybe I can ger rid of this one 
-        %\item Was very popular through the work of John Horton Conway in 1970's
-        %\item Was made popular through the work of John Horton Conway
-        %\item 2-state CA
-        \item The rules are...
-        \begin{enumerate}
-            \item Cell survives when exactly 2 or 3 of it's 8 neighbors are alive.
-            \item If more than 3 neighbors are alive, the cell dies from over-crowdedness.
-            \item If fewer than 2 neighbors are alive, the cell dies from loneliness.
-            \item Dead cell comes back to life when surrounded by exactly 3 live neighbors.  
-        \end{enumerate}
-        \item Makes some interesting patters and life like behavior 
-        \item \textbf{Note:} The position of the alive and dead cells w.r.t the center does not matter for this rule. Also known as Totalistic CA
-    \end{itemize}
-\end{frame}
+% \begin{frame}
+%     \frametitle{2D CA: Game of life...}
+%     \begin{itemize}
+%         % Maybe I can ger rid of this one 
+%         %\item Was very popular through the work of John Horton Conway in 1970's
+%         %\item Was made popular through the work of John Horton Conway
+%         %\item 2-state CA
+%         \item The rules are...
+%         \begin{enumerate}
+%             \item Cell survives when exactly 2 or 3 of it's 8 neighbors are alive.
+%             \item If more than 3 neighbors are alive, the cell dies from over-crowdedness.
+%             \item If fewer than 2 neighbors are alive, the cell dies from loneliness.
+%             \item Dead cell comes back to life when surrounded by exactly 3 live neighbors.  
+%         \end{enumerate}
+%         \item Makes some interesting patters and life like behavior 
+%         \item \textbf{Note:} The position of the alive and dead cells w.r.t the center does not matter for this rule. Also known as Totalistic CA
+%     \end{itemize}
+% \end{frame}
 
 
-\begin{frame}
-    \frametitle{Cellular Automata}
-    \begin{itemize}
-        \item Another variant of Game of Life: One out of eight rule
-        \begin{enumerate}
-            \item Cell becomes alive if exactly one neighbor is alive.
-            \item Otherwise unchanged.
-        \end{enumerate}
-        \item Has some nice self-similarity
-    \end{itemize}
-\end{frame}
+% \begin{frame}
+%     \frametitle{Cellular Automata}
+%     \begin{itemize}
+%         \item Another variant of Game of Life: One out of eight rule
+%         \begin{enumerate}
+%             \item Cell becomes alive if exactly one neighbor is alive.
+%             \item Otherwise unchanged.
+%         \end{enumerate}
+%         \item Has some nice self-similarity
+%     \end{itemize}
+% \end{frame}
 
-\begin{frame}
-    \frametitle{Cellular Automata} 
-    \begin{itemize}
-        \item Game of life is just one out of the imaginable set of rules 
-        \item For 2-state 2D automata and a neighborhood of eight cells, there are $2^{2^9} \approx 10^{154}$ different sets of rules!!
-        \item Let's look at another rule: Majority Rule
-        \begin{enumerate}
-            \item If 5 or more of the neighborhood of 9 cells (including itself) are alive, this cell lives or stays alive 
-            \item Otherwise dies or remains dead
-        \end{enumerate}
-        \item Here center cell adjusts to the majority 
-        \item This kind of rule is called Outer Totalistic
-        \item Has some resemblance with percolation
-    \end{itemize}
-\end{frame}
+% \begin{frame}
+%     \frametitle{Cellular Automata} 
+%     \begin{itemize}
+%         \item Game of life is just one out of the imaginable set of rules 
+%         \item For 2-state 2D automata and a neighborhood of eight cells, there are $2^{2^9} \approx 10^{154}$ different sets of rules!!
+%         \item Let's look at another rule: Majority Rule
+%         \begin{enumerate}
+%             \item If 5 or more of the neighborhood of 9 cells (including itself) are alive, this cell lives or stays alive 
+%             \item Otherwise dies or remains dead
+%         \end{enumerate}
+%         \item Here center cell adjusts to the majority 
+%         \item This kind of rule is called Outer Totalistic
+%         \item Has some resemblance with percolation
+%     \end{itemize}
+% \end{frame}
 
-\begin{frame}
-    \frametitle{Cellular Automata with Different neighbors}
-    \begin{itemize}
-        \item Let's consider only 4 neighbors.
-        \begin{figure}
-            \centering
-            \includegraphics[scale=0.5]{VonNeigh.png}
-        \end{figure}
-        \item C = Center, N = North, E = East, S = South, W = West
-        \item Can number the cell states in binary $(\text{CSWNE})_2$. Ex:$(01100)_2$ means S, W cells are alive, rest are dead
-        \item Total number of sets of rules are $2^{2^5} \approx 4 \cdot 10^9$
-        \item Two interesting examples are shown 
-    \end{itemize}
-\end{frame}
+% \begin{frame}
+%     \frametitle{Cellular Automata with Different neighbors}
+%     \begin{itemize}
+%         \item Let's consider only 4 neighbors.
+%         \begin{figure}
+%             \centering
+%             \includegraphics[scale=0.5]{VonNeigh.png}
+%         \end{figure}
+%         \item C = Center, N = North, E = East, S = South, W = West
+%         \item Can number the cell states in binary $(\text{CSWNE})_2$. Ex:$(01100)_2$ means S, W cells are alive, rest are dead
+%         \item Total number of sets of rules are $2^{2^5} \approx 4 \cdot 10^9$
+%         \item Two interesting examples are shown 
+%     \end{itemize}
+% \end{frame}
 
-\begin{frame}
-    \frametitle{Cellular Automata}
-    \begin{table}[H]
-        \begin{tabular}{l|l|l|l|l|l|l|l}
-        CSWNE & C & CSWNE & C & CSWNE & C & CSWNE & C \\
-        \hline
-        00000 & 0 & 01000 & 1 & 10000 & 1 & 11000 & 1 \\
-        00001 & 0 & 01001 & 1 & 10001 & 1 & 11001 & 1 \\
-        00010 & 0 & 01010 & 1 & 10010 & 1 & 11010 & 1 \\
-        00011 & 0 & 01011 & 1 & 10011 & 1 & 11011 & 1 \\
-        00100 & 1 & 01100 & 0 & 10100 & 1 & 11100 & 1 \\
-        00101 & 1 & 01101 & 0 & 10101 & 1 & 11101 & 1 \\
-        00110 & 1 & 01110 & 0 & 10110 & 1 & 11110 & 1 \\
-        00111 & 1 & 01111 & 0 & 10111 & 1 & 11111 & 1
-        \end{tabular}
-    \end{table}
-    \begin{itemize}
-        \item This behaves like a 1D CA
-    \end{itemize}
-\end{frame}
+% \begin{frame}
+%     \frametitle{Cellular Automata}
+%     \begin{table}[H]
+%         \begin{tabular}{l|l|l|l|l|l|l|l}
+%         CSWNE & C & CSWNE & C & CSWNE & C & CSWNE & C \\
+%         \hline
+%         00000 & 0 & 01000 & 1 & 10000 & 1 & 11000 & 1 \\
+%         00001 & 0 & 01001 & 1 & 10001 & 1 & 11001 & 1 \\
+%         00010 & 0 & 01010 & 1 & 10010 & 1 & 11010 & 1 \\
+%         00011 & 0 & 01011 & 1 & 10011 & 1 & 11011 & 1 \\
+%         00100 & 1 & 01100 & 0 & 10100 & 1 & 11100 & 1 \\
+%         00101 & 1 & 01101 & 0 & 10101 & 1 & 11101 & 1 \\
+%         00110 & 1 & 01110 & 0 & 10110 & 1 & 11110 & 1 \\
+%         00111 & 1 & 01111 & 0 & 10111 & 1 & 11111 & 1
+%         \end{tabular}
+%     \end{table}
+%     \begin{itemize}
+%         \item This behaves like a 1D CA
+%     \end{itemize}
+% \end{frame}
 
-% Maybe the last point is obvious and need not be stated 
-\begin{frame}
-    \frametitle{Cellular Automata}
-    \begin{itemize}
-        \item Many interesting rules can be given by a simple formula
-        \item Parity Rule:
-        \begin{equation*}
-            C_{new} = C_{old} + N_{old} + E_{old} + S_{old} + W_{old} \mod 2
-        \end{equation*}
-        %\item Again, this is a 2-state CA
-    \end{itemize}
-\end{frame}
+% % Maybe the last point is obvious and need not be stated 
+% \begin{frame}
+%     \frametitle{Cellular Automata}
+%     \begin{itemize}
+%         \item Many interesting rules can be given by a simple formula
+%         \item Parity Rule:
+%         \begin{equation*}
+%             C_{new} = C_{old} + N_{old} + E_{old} + S_{old} + W_{old} \mod 2
+%         \end{equation*}
+%         %\item Again, this is a 2-state CA
+%     \end{itemize}
+% \end{frame}
 \subsection{Cellular Automata and polynomials}
 %\subsection{CA,Pascal's Triangle and Polynomials}
 \begin{frame}
@@ -489,34 +500,34 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \frametitle{Linear Cellular Automata}
-    \begin{itemize}
-        \item We can start with any polynomial $r(x) = a_0 + a_1x+\dots+a_dx^d$
-        \item The coefficients of $(r(x))^n$ modulo some positive integer $p$ is obtained by an addition formula involving $d$ coefficients from              $(r(x))^{n-1}$
-        \item So, there is an associated Cellular Automata which generates coefficients modulo p of the powers of $(r(x))^n$
-        \item A look-up table can be generated by an addition formula
-        \item These are called \textit{Linear Cellular Automata}
-        \item Again, the choice of p determines the number of states.
-        This opens up a lot of interesting problems 
-    \end{itemize}
-\end{frame}
+% \begin{frame}
+%     \frametitle{Linear Cellular Automata}
+%     \begin{itemize}
+%         \item We can start with any polynomial $r(x) = a_0 + a_1x+\dots+a_dx^d$
+%         \item The coefficients of $(r(x))^n$ modulo some positive integer $p$ is obtained by an addition formula involving $d$ coefficients from              $(r(x))^{n-1}$
+%         \item So, there is an associated Cellular Automata which generates coefficients modulo p of the powers of $(r(x))^n$
+%         \item A look-up table can be generated by an addition formula
+%         \item These are called \textit{Linear Cellular Automata}
+%         \item Again, the choice of p determines the number of states.
+%         This opens up a lot of interesting problems 
+%     \end{itemize}
+% \end{frame}
 
-% This slide needs improvement-Anki
-\begin{frame}
-    \begin{itemize}
-        \item Pattern Formation: Given a polynomial, what is the global pattern which evolves when the automaton has run for a long time?
-        \item Colors: What is the relation between the global patterns which are obtained for different choices of p?
-        \item Fractal Dimension: Fractal dimension of the global pattern ?
-        \item Higher Dimension: What if we used polynomial of m variables ? (m-dimensional ?)
-        \item Factorization: If a polynomial $r(x)$ can be factorized to two polynomials $s(x)$ and $t(x)$, how are the patters related ? Is that factorization unique ? \\
-        In general, no, it depends on $p$\\
-        Ex: $1+x$ is irreducible with respect to integers. But in arithmetic modulo $p$, with $p$ not prime, there are non trivial factorization
-        \begin{equation*}
-            1+x \equiv (1+3x)(1+4x) \pmod 6
-        \end{equation*}
-    \end{itemize}
-\end{frame}
+% % This slide needs improvement-Anki
+% \begin{frame}
+%     \begin{itemize}
+%         \item Pattern Formation: Given a polynomial, what is the global pattern which evolves when the automaton has run for a long time?
+%         \item Colors: What is the relation between the global patterns which are obtained for different choices of p?
+%         \item Fractal Dimension: Fractal dimension of the global pattern ?
+%         \item Higher Dimension: What if we used polynomial of m variables ? (m-dimensional ?)
+%         \item Factorization: If a polynomial $r(x)$ can be factorized to two polynomials $s(x)$ and $t(x)$, how are the patters related ? Is that factorization unique ? \\
+%         In general, no, it depends on $p$\\
+%         Ex: $1+x$ is irreducible with respect to integers. But in arithmetic modulo $p$, with $p$ not prime, there are non trivial factorization
+%         \begin{equation*}
+%             1+x \equiv (1+3x)(1+4x) \pmod 6
+%         \end{equation*}
+%     \end{itemize}
+% \end{frame}
 
 \section{Binomial Coefficients and Divisibility}
 
