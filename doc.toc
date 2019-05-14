@@ -1,9 +1,9 @@
 \beamer@sectionintoc {2}{Pascal's Triangle}{2}{0}{1}
-\beamer@sectionintoc {3}{Cellular Automata}{8}{0}{2}
-\beamer@subsectionintoc {3}{1}{Elementary CA}{8}{0}{2}
-\beamer@subsectionintoc {3}{2}{2D CA}{14}{0}{2}
-\beamer@subsectionintoc {3}{3}{Cellular Automata and polynomials}{14}{0}{2}
-\beamer@sectionintoc {4}{Binomial Coefficients and Divisibility}{19}{0}{3}
-\beamer@subsectionintoc {4}{1}{Divisibility Sets}{22}{0}{3}
-\beamer@subsectionintoc {4}{2}{Kummer's Result}{25}{0}{3}
-\beamer@sectionintoc {5}{Iterated Function System}{30}{0}{4}
+\beamer@sectionintoc {3}{Cellular Automata}{9}{0}{2}
+\beamer@subsectionintoc {3}{1}{Elementary CA}{9}{0}{2}
+\beamer@subsectionintoc {3}{2}{2D CA}{15}{0}{2}
+\beamer@subsectionintoc {3}{3}{Cellular Automata and polynomials}{15}{0}{2}
+\beamer@sectionintoc {4}{Binomial Coefficients and Divisibility}{24}{0}{3}
+\beamer@subsectionintoc {4}{1}{Divisibility Sets}{27}{0}{3}
+\beamer@subsectionintoc {4}{2}{Kummer's Result}{32}{0}{3}
+\beamer@sectionintoc {5}{Iterated Function System}{38}{0}{4}

@@ -12,6 +12,8 @@
 \usepackage[parfill]{parskip}
 \usepackage{array}
 \usepackage{comment}
+%\usepackage{caption}
+%\captionsetup[figure]{labelformat=empty}
 
 \epstopdfDeclareGraphicsRule{.gif}{png}{.png}{convert gif:#1 png:\OutputFile}
 \AppendGraphicsExtensions{.gif}
@@ -194,6 +196,12 @@
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+    \centering 
+    \Large
+    The Macroscopic view
+\end{frame}
+
 \section{Cellular Automata}
 % \begin{frame}
 %     \frametitle{Cellular Automata}
@@ -239,8 +247,8 @@
             \centering
             \includegraphics[scale=0.4]{grid.pdf}
         \end{figure}
-        \item Next generation depends on itself,cell to the left and, cell to the right (Neighbors).
         \item A set of rules to describe new cell state from the states of a group of cells from the previous layer
+        \item Next generation depends on itself,cell to the left and, cell to the right (Neighbors).
         %\item All the rules can be numbered in a nice way using binary
         \begin{figure}[H]
             \includegraphics[scale=0.5]{rulerule30}
@@ -261,7 +269,7 @@
     So lets run some 
     \begin{figure}
         \includegraphics[scale=0.3]{fig3.png}
-        \includegraphics[scale=0.6]{rule60.pdf}
+        \includegraphics[scale=0.5]{rule60.pdf}
         \caption{13 Generations of a 1-D Cellular Automata}
     \end{figure}
 \end{frame}
@@ -280,7 +288,7 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Elementary Cellular Automata}
+    \frametitle{Cellular Automata}
     \begin{figure}
         \centering
         \includegraphics[scale=0.53]{fig4.pdf}
@@ -289,10 +297,10 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Elementary Cellular Automata}
+    \frametitle{Cellular Automata}
     \begin{figure}
         \includegraphics[scale=0.5]{seir.pdf}
-        \includegraphics[scale=0.7]{rule60.pdf}
+        \includegraphics[scale=0.6]{rule60.pdf}
         \caption{Rule 60. Sierpinski Triangle*}
     \end{figure}
 \end{frame}
@@ -306,7 +314,7 @@
 % \end{frame}
 
 \begin{frame}
-    \frametitle{Elementary Cellular Automata}
+    \frametitle{Cellular Automata}
     \begin{figure}
         \includegraphics[scale=0.8]{rule30.pdf}
         \caption{Rule 30}
@@ -318,6 +326,7 @@
 \end{frame}
 \subsection{2D CA}
 
+\begin{comment}  
 % \begin{frame}
 %     \centering \LARGE
 %     Let's take it up a notch and see what happens in 2-D...
@@ -424,6 +433,8 @@
 %         %\item Again, this is a 2-state CA
 %     \end{itemize}
 % \end{frame}
+\end{comment}
+
 \subsection{Cellular Automata and polynomials}
 %\subsection{CA,Pascal's Triangle and Polynomials}
 \begin{frame}
@@ -443,20 +454,23 @@
         \begin{equation*}
             a_k(n) = a_{k-1}(n-1) + a_k(n-1)
         \end{equation*}
-        \item $a_k(n)$ gives the state of $\text{n}^{\text{th}}$ layer $\text{CA}^*$ 
+        %\item $a_k(n)$ gives the state of $\text{n}^{\text{th}}$ layer $\text{CA}^*$ 
+        \item This is a Cellular Automata kind of behavior
     \end{itemize}
 \end{frame}
-% Need to bring changes to this slide 
+
 % Maybe add a figure to give better explanation of last point
 \begin{frame}
     \frametitle{CA and polynomials}
     %\frametitle{CA, Pascal's Triangle and Polynomial}
     \begin{itemize}
-        \item Looking at the divisibility properties of $a_k(n)$ with 2
+        %\item Looking at the divisibility properties of $a_k(n)$ with 2
+        \item To color the triangle, we could look at divisibility of $a_k(n)$ with respect to 2
+        \item Now, there are 2 possibilities 
         \begin{align*}
             a_k(n) \equiv 0 \pmod 2  \qquad or&& a_k(n) \equiv 1 \pmod 2
         \end{align*}
-        \item With this, the addition rules in mod 2 arithmetic simplifies to
+        \item The recursive addition rules in mod 2 arithmetic simplifies to
         \begin{table}
             \centering
             \begin{tabular}{|ccc|}
@@ -470,27 +484,48 @@
                 \hline
             \end{tabular}
         \end{table}
-        \item Exactly same rule set used to color the Pascal Triangle
+        %\item Exactly same rule set used to color the Pascal Triangle
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item If we set 1 = Black, 0 = White
+        \begin{figure}
+            \centering
+            \includegraphics{addRule.pdf}
+        \end{figure}
+        \item If we add a right neighbor to the above rule such that it doesn't affect the output
+        \begin{figure}
+            \centering
+            \includegraphics[scale=0.7]{rule60Num.pdf}
+        \end{figure}
+        \item This is rule $00111100_2 = 60$ Cellular Automata
+    \end{itemize}
+
 \end{frame}
 
 \begin{frame}
     \begin{figure}
         \centering
-        \includegraphics[scale=0.4]{Mod2Poly.pdf}
+        \includegraphics[scale=0.4]{sierSmall}
         % Add generation axis to this plot 
         \begin{itemize}
-            \item Thus, this figure shows the coefficients of the powers of $r(x) = 1+x \mod 2$ 
+            \item Thus, this figure shows the coefficients of the powers of $r(x) = 1+x \mod 2$
         \end{itemize}
     \end{figure}
 \end{frame}
+
+% \begin{frame}
+%     Add a bigger picture of mod 2 pascal 
+% \end{frame}
 
 \begin{frame}
     \frametitle{Generalizations}
     \begin{itemize}
         \item There are 2 ways to generalize,
         \begin{enumerate}
-            \item A different coefficient modulo integer 
+            \item A different integer modulus 
             \item A different polynomial
         \end{enumerate}
         \item Ex: Let $r(x) = 1+2x$
@@ -502,7 +537,7 @@
             &\vdots \\
             (r(x))^n &= a_0(n) + a_1(n)x + \dots + a_n(n)x^n
         \end{align*}
-        \item By pattern,
+        \item By observation,
         \begin{equation*}
             a_k(n) = a_{k}(n-1) + 2a_{k-1}(n-1)
         \end{equation*}
@@ -511,7 +546,7 @@
 
 \begin{frame}
     \begin{itemize}
-        \item By looking at the divisibility property with p = 3, we get 
+        \item By looking at the remainder with p = 3,i.e $a_k(n)\mod3$ 
         \begin{align*}
             (r(x))^0 &= 1 \\
             (r(x))^1 &= 1 \ 2 \\
@@ -521,12 +556,33 @@
         \item The cellular automaton would be $a_{n,k} = a_{n-1,k} + 2a_{n-1,k-1} \mod 3$
         \begin{figure}
             \centering
-            \includegraphics[scale=0.2]{Mod3Poly.pdf}
-            \caption{CA for $r(x) = 1 + 2x \mod 2$}
+            \includegraphics[scale=0.3]{Mod3Poly.pdf}
+            \includegraphics[scale=0.6]{genPolyRule.pdf}
+            \caption{CA for $r(x) = 1 + 2x \mod 3$ and rule table}
         \end{figure}
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{genPolyRuleVertical.pdf}
+        \includegraphics[scale=0.6]{Mod3Bigger.pdf}
+        \caption{A bigger picture for rule $(02110221)_3 = 5421$}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Generalizations}
+    \begin{itemize}
+        \item Another quick example: $r(x) = 1 + x \mod 3$
+        \begin{figure}
+            \centering 
+            \includegraphics[scale=0.5]{PascalCAMod3.pdf}
+        \end{figure}
+        \item The CA rule is $a_{n,k} = a_{n-1,k} + a_{n-1,k-1} \mod 3$
+    \end{itemize}
+\end{frame}
 % \begin{frame}
 %     \frametitle{Linear Cellular Automata}
 %     \begin{itemize}
@@ -540,7 +596,7 @@
 %     \end{itemize}
 % \end{frame}
 
-% % This slide needs improvement-Anki
+% % This slide needs improvement
 % \begin{frame}
 %     \begin{itemize}
 %         \item Pattern Formation: Given a polynomial, what is the global pattern which evolves when the automaton has run for a long time?
@@ -556,13 +612,19 @@
 %     \end{itemize}
 % \end{frame}
 
+\begin{frame}
+    \centering
+    \Large
+    The Microscopic view 
+\end{frame}
+
 \section{Binomial Coefficients and Divisibility}
 
-% Under review, needs changes 
+% Under review, be more descriptive 
 \begin{frame}
     \frametitle{Binomial Coefficients and Divisibility}
     \begin{itemize}
-        \item Discuss the question of whether a binomial coefficient is divisible by $p$ or not. 
+        %\item Discuss the question of whether a binomial coefficient is divisible by $p$ or not. 
         \item Black and white coloring of the Pascal triangle depending on divisibility with p (mod p)
         \item We will also see that in order to understand the patterns formed by mod $p$, we should look at the patters formed by the prime factors of $p$ 
         \item We will look at a direct, non-recursive computation of binomial divisibility by p
@@ -590,6 +652,7 @@
             \caption{A new coordinate system}
         \end{figure}
     \end{itemize}
+    \let\thefootnote\relax\footnotetext{Fig. from "Chaos and Fractals" Pg 394}
 \end{frame}
 
 \subsection{Divisibility Sets}
@@ -600,6 +663,18 @@
         \begin{equation*}
             P(r) = \left\{ (n,k) \left| \binom{n+k}{n} \text{ is not divisible by }r \right. \right\}
         \end{equation*}
+        \item Plotting the points in this set gives the same Pascal Triangle pattern
+        \begin{figure}
+            \centering
+            \includegraphics[scale = 0.25]{seir.pdf}
+            \caption{$P(2)$}
+        \end{figure}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Divisibility Sets}
+    \begin{itemize}
         \item Observe that if $p$ and $q$ are two different prime numbers and a given integer $r$ is \textbf{not} divisible by $p \cdot q$, then it is \textbf{not} divisible by either $p$ or $q$
         \begin{equation*}
             P(pq) = P(p) \cup P(q) \text{, if $p \neq q$, $p,q$ prime}
@@ -612,6 +687,24 @@
 \begin{frame}
     \begin{figure}
         \centering
+        \begin{minipage}[c]{.45\textwidth}
+            \includegraphics[width=1\linewidth,clip]{mod6Initalmod2.pdf}
+            \centering
+            Mod 2
+        \end{minipage}
+        \hfill
+        \begin{minipage}[c]{.45\textwidth}
+            \includegraphics[width=1\linewidth,clip]{Mod6InitalMod3.pdf}
+            \centering
+            Mod 3
+        \end{minipage}
+        % Add a few more figures, so as to give a more clear description of this union. 
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
         \includegraphics[width=0.475\textwidth]{Mod6.pdf}
         \hfill
         \includegraphics[width=0.475\textwidth]{mod2,3.pdf}
@@ -619,6 +712,7 @@
         % Add a few more figures, so as to give a more clear description of this union. 
     \end{figure}
 \end{frame}
+
 
 \begin{frame}
     \begin{itemize}
@@ -679,13 +773,19 @@
         \item Let $\tau = c_p(n,k),$ then $\binom{n+k}{k}$ is divisible by $p^\tau$ but not $p^{\tau + 1}$
         \item So, prime factorization of $\binom{n+k}{k}$ contains exactly $c_p(n,k)$ factors of $p$
         \item This result is pretty amazing, since it gives a direct method to check if a binomial coefficient is divisible by $p$ or not.
-        \item For $n=15$ and $k=8$
+        \item For $n=5$ and $k=4$, Kummer's result says
+        % \begin{equation*}
+        %     \binom{5+4}{4} = \binom{9}{4} = 2 \cdot 3 \cdot 11 \cdot 17 \cdot 19 \cdot 23
+        % \end{equation*} 
+        % \item So the Kummer's result implies 
         \begin{equation*}
-            \binom{15+8}{8} = \binom{23}{8} = 2 \cdot 3 \cdot 11 \cdot 17 \cdot 19 \cdot 23
-        \end{equation*} 
-        \item So the Kummer's result implies 
+            c_{p}(5,4)=\left\{\begin{array}{l}{1, \text { for } p=2,7} \\
+            {2, \text { for } p=3 } \\
+        {0 \text{ otherwise }}\end{array}\right.
+        \end{equation*}
+        \item This implies 
         \begin{equation*}
-            c_{p}(17,8)=\left\{\begin{array}{l}{1, \text { for } p=2,3,11,17,19} \\  {0, \text { otherwise }}\end{array}\right.
+            \binom{5+4}{4} = \binom{9}{4} = 2^1 \cdot 3^2 \cdot 7^1
         \end{equation*}
     \end{itemize}
 \end{frame}
@@ -721,6 +821,11 @@
         
 \end{frame}
 
+\begin{frame}
+    \centering
+    \Large
+    The Big Picture
+\end{frame}
 
 \section{Iterated Function System}
 \begin{frame}
@@ -731,8 +836,12 @@
         \begin{equation*}
             f(x, y)=\left[ \begin{array}{ll}{a} & {b} \\ {c} & {d}\end{array}\right] \left[ \begin{array}{l}{x} \\ {y}\end{array}\right]+\left[ \begin{array}{l}{e} \\ {f}\end{array}\right]
         \end{equation*}
+        where
+        \begin{equation*}
+            \text{det}\left(\left[ \begin{array}{ll}{a} & {b} \\ {c} & {d}\end{array}\right]\right) < 1
+        \end{equation*}
         \item Union of these contraction mapping gives the Hutchinson equation of the fractal
-        \item If you put a probability factor to these contraction mappings, you get some pretty images. 
+        %\item If you put a probability factor to these contraction mappings, you get some pretty images. 
     \end{itemize}
 \end{frame}
 
@@ -751,13 +860,67 @@
         w_{10} &= (x/2 + 1/2, y/2) \\
         w_{11} &= (x/2 + 1/2 + y/2 + 1/2)
     \end{align*}
-    \item So how do we know for sure that our Pascal Sierpinski triangle is the same as the Hutchinson operator Sierpinski Triangle?
-    \item Let's construct Mod 2 Pascal triangle in a unit square 
+    % \item So how do we know for sure that our Pascal Sierpinski triangle is the same as the Hutchinson operator Sierpinski Triangle?
+    % \item Let's construct Mod 2 Pascal triangle in a unit square
+    \item Let $Q$ be a unit square  
     \end{itemize}
 \end{frame}
 
 \begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{0.pdf}
+        \caption{Initial region, $Q = S^0$}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{1.pdf}
+        \caption{$S^1 = S(Q)$}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{2.pdf}
+        \caption{$S^2 = S(S(Q))$}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{3.pdf}
+        \caption{$S^3 = S(S(S(Q)))$}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{5.pdf}
+        \caption{$S^5$}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{GlobalMod2}
+        \caption{$S^\infty$}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \centering
+    So how do we know for sure that our Pascal Triangle pattern is the Sierpinski Triangle ?
+\end{frame}
+\begin{frame}
     \begin{itemize}
+        \item Let's construct Mod 2 Pascal triangle in a unit square
         \item Let $Q$ be the unit square 
         \begin{equation*}
             Q = \{(x,y) | \ (x,y) \in [0,1] \times [0,1]\}
@@ -797,9 +960,9 @@
         where $a_i + b_i \leq 1$
         \item Applying the 3 transformations gives 
         \begin{align*}
-            w_{00}(0,a_1a_2\dots,0.b_1 b_2 \dots) &= (0.0a_1a_2\dots,0.0b_1 b_2 \dots) \\
-            w_{01}(0,a_1a_2\dots,0.b_1 b_2 \dots) &= (0.0a_1a_2\dots,0.1b_1 b_2 \dots) \\
-            w_{10}(0,a_1a_2\dots,0.b_1 b_2 \dots) &= (0.1a_1a_2\dots,0.0b_1 b_2 \dots)
+            w_{00}(0.a_1a_2\dots,0.b_1 b_2 \dots) &= (0.0a_1a_2\dots,0.0b_1 b_2 \dots) \\
+            w_{01}(0.a_1a_2\dots,0.b_1 b_2 \dots) &= (0.0a_1a_2\dots,0.1b_1 b_2 \dots) \\
+            w_{10}(0.a_1a_2\dots,0.b_1 b_2 \dots) &= (0.1a_1a_2\dots,0.0b_1 b_2 \dots)
         \end{align*}
     \end{itemize}
 \end{frame}
@@ -882,39 +1045,39 @@
 %     \end{figure}
 % \end{frame}
 
-% \begin{frame}
-%     \begin{figure}
-%         \centering
-%         \includegraphics[scale=0.5]{GlobalMod3.pdf}
-%         \caption{Limit of Mod 3 IFS.}
-%     \end{figure}
-% \end{frame}
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{GlobalMod3.pdf}
+        \caption{Limit of Mod 3 IFS.}
+    \end{figure}
+\end{frame}
 
-% \begin{frame}
-%     \begin{figure}
-%         \centering
-%         \includegraphics[scale=0.5]{GlobalMod5}
-%         \caption{Limit of Mod 5 IFS.}
-%     \end{figure}
-% \end{frame}
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{GlobalMod5}
+        \caption{Limit of Mod 5 IFS.}
+    \end{figure}
+\end{frame}
 
-% \begin{frame}
-%     \begin{figure}
-%         \centering
-%         \includegraphics[scale=0.5]{GlobalMod7}
-%         \caption{Limit of Mod 7 IFS.}
-%     \end{figure}
-% \end{frame}
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.5]{GlobalMod7}
+        \caption{Limit of Mod 7 IFS.}
+    \end{figure}
+\end{frame}
 
 \section*{}
 % Fix this issue, Slide should be out of all sections 
 \begin{frame}
-    \frametitle{Conlcusion}
+    \frametitle{Summary}
     \begin{itemize}
         \item We approached the problem of coloring (or divisibility) of pascal's triangle in 3 different ways 
         \begin{enumerate}
-            \item First, we looked at the macroscopic nature of divisibility, i.e how the neighbors affected the divisibility of a cell. We then explored the realm of cellular automata and how it extends this idea to general polynomials. We also peaked into some open ended problems
-            \item Second, we looked at the microscopic nature of divisibility,i.e how the divisibility of a cell depends on its coordinate (Kummer's Result). We looked how p-adic numbers gave insight about binomial divisibility with primes. We also extended this idea of divisibility to all integers.
+            \item First, we looked at the macroscopic nature of divisibility, i.e how the neighbors affected the divisibility of a cell. We then explored the realm of cellular automata and how it extends this idea to general polynomials.
+            \item Second, we looked at the microscopic nature of divisibility,i.e how the divisibility of a cell depends on its coordinate (Kummer's Result). We looked how p-adic numbers gave insight about binomial divisibility with primes.
             \item Finally, we looked at the global pattern using Iterated function system. We showed that the limit of Pascal Mod 2 pattern was indeed the Sierpinski triangle. We also explored the global patterns of other primes and their IFS. 
         \end{enumerate}
     \end{itemize}
