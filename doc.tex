@@ -6,12 +6,13 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{cleveref}
-\usepackage[utf8]{inputenc}
 \usepackage{epstopdf}
 \usepackage{framed}
-\usepackage[parfill]{parskip}
+%\usepackage[parfill]{parskip}
 \usepackage{array}
 \usepackage{comment}
+\usepackage{animate}
+\usepackage{hyperref}
 %\usepackage{caption}
 %\captionsetup[figure]{labelformat=empty}
 
@@ -42,6 +43,7 @@
 
 \section[Outline]{}
 %\frame{\tableofcontents}
+\setbeamercovered{transparent}
 
 \section{Pascal's Triangle}
 \begin{frame}
@@ -90,6 +92,7 @@
     \end{itemize}
 
 \end{frame}
+
 \begin{frame}
     \frametitle{Pascal's Triangle}
     %We will look at the patterns when we color Pascal's triangle \\
@@ -104,6 +107,7 @@
         \centering
         \includegraphics[scale=0.8]{Mod2,7.pdf}
     \end{figure}
+    \let\thefootnote\relax\footnotetext{Modified code:https://tex.stackexchange.com/questions/198887/how-can-i-draw-pascals-triangle-with-some-its-properties}
 \end{frame}
 
 \begin{frame}
@@ -155,6 +159,12 @@
         \end{itemize}
 \end{frame}
 
+\begin{frame}
+    \centering 
+    \Large
+    The Macroscopic view
+\end{frame}
+
 % Slide on HOLD!!!!
 %Let's take a small diversion
 \begin{frame}
@@ -194,12 +204,6 @@
         %\item What global patterns do we get? How are they related to binomial coefficient? These are some of the questions that I will try to answer.
         %\item What patterns do we get ? Global pattern? Why? ...IFS
     \end{itemize}
-\end{frame}
-
-\begin{frame}
-    \centering 
-    \Large
-    The Macroscopic view
 \end{frame}
 
 \section{Cellular Automata}
@@ -265,6 +269,12 @@
 \end{frame}
 
 \begin{frame}
+    \centering
+    \animategraphics[loop,width=\linewidth]{2}{figures/gif/frame-}{0}{29}
+    \let\thefootnote\relax\footnotetext{https://en.wikipedia.org/wiki/File:One-d-cellular-automaton-rule-110.gif}
+\end{frame}
+
+\begin{frame}
     \frametitle{Cellular Automata}
     So lets run some 
     \begin{figure}
@@ -284,6 +294,11 @@
             \includegraphics[scale=0.7]{rule60Num.pdf}
             \caption{Rule $(00111100)_2 = 60$}
         \end{figure}
+        \item For the following examples, the initial state is
+        \begin{figure}
+            \centering 
+            \includegraphics[scale=0.6]{initial.pdf}
+        \end{figure}
     \end{itemize}
 \end{frame}
 
@@ -302,6 +317,14 @@
         \includegraphics[scale=0.5]{seir.pdf}
         \includegraphics[scale=0.6]{rule60.pdf}
         \caption{Rule 60. Sierpinski Triangle*}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}
+    \begin{figure}
+        \includegraphics[scale=0.5]{GlobalMod2.pdf}
+        \caption{Sierpinski Triangle}
     \end{figure}
 \end{frame}
 
@@ -516,9 +539,12 @@
     \end{figure}
 \end{frame}
 
-% \begin{frame}
-%     Add a bigger picture of mod 2 pascal 
-% \end{frame}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[scale=0.5]{seir.pdf}
+        \caption{A Bigger picture}
+    \end{figure}
+\end{frame}
 
 \begin{frame}
     \frametitle{Generalizations}
@@ -578,6 +604,7 @@
         \item Another quick example: $r(x) = 1 + x \mod 3$
         \begin{figure}
             \centering 
+            \includegraphics[scale=0.5]{mod3ployrule.pdf}
             \includegraphics[scale=0.5]{PascalCAMod3.pdf}
         \end{figure}
         \item The CA rule is $a_{n,k} = a_{n-1,k} + a_{n-1,k-1} \mod 3$
@@ -625,9 +652,9 @@
     \frametitle{Binomial Coefficients and Divisibility}
     \begin{itemize}
         %\item Discuss the question of whether a binomial coefficient is divisible by $p$ or not. 
-        \item Black and white coloring of the Pascal triangle depending on divisibility with p (mod p)
-        \item We will also see that in order to understand the patterns formed by mod $p$, we should look at the patters formed by the prime factors of $p$ 
-        \item We will look at a direct, non-recursive computation of binomial divisibility by p
+        \item Black and white coloring of the Pascal triangle depending on divisibility with $n$ (mod $n$), where n is an integer
+        \item We will also that in order to understand the patterns formed by mod $n$, we should look at the patters formed by the prime factors of $n$ 
+        \item We will look at a direct, non-recursive computation of binomial divisibility by p (prime)
         %\item This was solved in an elegant manner by Ernest Eduard Kummer.
     \end{itemize}
 \end{frame}
@@ -661,13 +688,13 @@
     \begin{itemize}
         \item We formally define our problem
         \begin{equation*}
-            P(r) = \left\{ (n,k) \left| \binom{n+k}{n} \text{ is not divisible by }r \right. \right\}
+            P(r) = \left\{ (n,k) \left| \binom{n+k}{k} \text{ is not divisible by }r \right. \right\}
         \end{equation*}
         \item Plotting the points in this set gives the same Pascal Triangle pattern
         \begin{figure}
             \centering
-            \includegraphics[scale = 0.25]{seir.pdf}
-            \caption{$P(2)$}
+            \includegraphics[scale = 0.5]{P(2)}
+            \caption{$P(2)$ or Mod 2}
         \end{figure}
     \end{itemize}
 \end{frame}
@@ -677,9 +704,9 @@
     \begin{itemize}
         \item Observe that if $p$ and $q$ are two different prime numbers and a given integer $r$ is \textbf{not} divisible by $p \cdot q$, then it is \textbf{not} divisible by either $p$ or $q$
         \begin{equation*}
-            P(pq) = P(p) \cup P(q) \text{, if $p \neq q$, $p,q$ prime}
+            P(pq) = P(p) \cup P(q) \text{, if $p \neq q$, $p,q$ prime} \tag{$\dagger$}
         \end{equation*}
-        \item It is the negation of the statement, if $p$ and $q$ divides $r$, then $r$ is divisible by both $p$ and $q$.
+        \item Eq $(\dagger)$ is the negation of the statement: If $pq$ divides $r$, then $r$ is divisible by both $p$ and $q$.
         \item Ex: $P(6) = P(2) \cup P(3)$ %This generalization can be extended to any integer
     \end{itemize}
 \end{frame}
@@ -690,13 +717,13 @@
         \begin{minipage}[c]{.45\textwidth}
             \includegraphics[width=1\linewidth,clip]{mod6Initalmod2.pdf}
             \centering
-            Mod 2
+            $P(2)$ or Mod 2
         \end{minipage}
         \hfill
         \begin{minipage}[c]{.45\textwidth}
             \includegraphics[width=1\linewidth,clip]{Mod6InitalMod3.pdf}
             \centering
-            Mod 3
+            $P(3)$ Mod 3
         \end{minipage}
         % Add a few more figures, so as to give a more clear description of this union. 
     \end{figure}
@@ -707,8 +734,8 @@
         \centering
         \includegraphics[width=0.475\textwidth]{Mod6.pdf}
         \hfill
-        \includegraphics[width=0.475\textwidth]{mod2,3.pdf}
-        \caption{Right shows mod 6 pattern and left shows the union of mod 2 (Red) and mod 3 (Blue)}
+        \includegraphics[width=0.475\textwidth]{mod2,3.jpg}
+        \caption{Left shows Mod 6 ($P(6)$) pattern and right shows the union of mod 2 (Red) and mod 3 (Blue)}
         % Add a few more figures, so as to give a more clear description of this union. 
     \end{figure}
 \end{frame}
@@ -721,6 +748,7 @@
             P(r) = P(p_1^{n_1}) \cup ... \cup P(p_s^{n_s})
         \end{equation*}
         \item So to understand the pattern formed by $P(r)$, we just need to understand the pattern of $P(p^n)$
+        \item We can construct $P(p)$ in a non-recursive direct method using Kummer's result
     \end{itemize}
 \end{frame}
 
@@ -740,7 +768,6 @@
         \end{equation*} 
         \item Ex: $15_{10} = (1111)_2 = (120)_3 = (30)_5 = (21)_7 = (14)_{11}$ 
     \end{itemize}
-    
 \end{frame}
 
 \begin{frame}
@@ -755,8 +782,8 @@
         \end{equation*}
         \item If we take the binary addition
         \begin{tabular}{cccccc}
-            & $0$ & $1$ & $1$ & $1$ & $1$ \\
-            + & $0_1$ & $1$ & $0$ & $0$ & $0$ \\
+            & $0^1$ & $1$ & $1$ & $1$ & $1$ \\
+            + & $0$ & $1$ & $0$ & $0$ & $0$ \\
             \hline
             & $1$ & $0$ & $1$ & $1$ & $1$ 
         \end{tabular}
@@ -770,14 +797,58 @@
 \begin{frame}
     \frametitle{Kummer's result}
     \begin{itemize}
-        \item Let $\tau = c_p(n,k),$ then $\binom{n+k}{k}$ is divisible by $p^\tau$ but not $p^{\tau + 1}$
+        \item Kummer's Statement is:
+        \begin{quote}
+            Let $r = c_p(n,k),$ then $\binom{n+k}{k}$ is divisible by $p^r$ but not $p^{r + 1}$
+        \end{quote}
         \item So, prime factorization of $\binom{n+k}{k}$ contains exactly $c_p(n,k)$ factors of $p$
         \item This result is pretty amazing, since it gives a direct method to check if a binomial coefficient is divisible by $p$ or not.
-        \item For $n=5$ and $k=4$, Kummer's result says
+        
         % \begin{equation*}
-        %     \binom{5+4}{4} = \binom{9}{4} = 2 \cdot 3 \cdot 11 \cdot 17 \cdot 19 \cdot 23
-        % \end{equation*} 
-        % \item So the Kummer's result implies 
+        %     c_{p}(5,4)=\left\{\begin{array}{l}{1, \text { for } p=2,7} \\
+        %     {2, \text { for } p=3 } \\
+        % {0 \text{ otherwise }}\end{array}\right.
+        % \end{equation*}
+        % \item This implies 
+        % \begin{equation*}
+        %     \binom{5+4}{4} = \binom{9}{4} = 2^1 \cdot 3^2 \cdot 7^1
+        % \end{equation*}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item For $n=5$ and $k=4$, Kummer's result says
+        \begin{equation*}
+            n = (101)_2 = (12)_3 = (10)_5 = (5)_7
+        \end{equation*}
+        \begin{equation*}
+            k = (100)_2 = (11)_3 = (4)_5 = (4)_7
+        \end{equation*}
+        \item In Base 2 addition
+        \begin{tabular}{cccccc}
+            & $0^1$ & $1$ & $0$ & $1$ \\
+            + & $0$ & $1$ & $0$ & $0$ \\
+            \hline
+            & $1$ & $0$ & $0$ & $1$  
+        \end{tabular}
+        $\Rightarrow c_2(5,4) = 1$ 
+        \item In Base 3 addition 
+        \begin{tabular}{cccccc}
+            & $0^1$ & $1^1$ & $2$\\
+            + & $0$ & $1$ & $1$\\
+            \hline
+            & $1$ & $0$ & $0$   
+        \end{tabular}
+        $\Rightarrow c_3(5,4) = 2$
+        \item Similar additions can be done for $p = 5,7,11\dots$
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        
+        \item Kummer's result says:
         \begin{equation*}
             c_{p}(5,4)=\left\{\begin{array}{l}{1, \text { for } p=2,7} \\
             {2, \text { for } p=3 } \\
@@ -801,20 +872,21 @@
             a_i + b_i < p, \quad i = 0,\dots,m
         \end{equation*}
         where $a_i$ and $b_i$ are the p-adic digits of n and k. 
-        \item This is called the \textit{mod-p} condition.
-        \item For prime powers, 
-        \begin{equation*}
-            P(p^\tau) = \{(n,k)| \ c_p(n,k) < \tau \}
-        \end{equation*}
+        %\item This is called the \textit{mod-p} condition.
+        %\item For prime powers, 
+        % Review this equation 
+        %\begin{equation*}
+        %    P(p^\tau) = \{(n,k)| \ c_p(n,k) < \tau \}
+        %\end{equation*}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
     \begin{figure}
-        \includegraphics[width=0.475\textwidth]{Mod6CP.pdf}
+        \includegraphics[width=0.475\textwidth]{P(5)cp.pdf}
         \hfill
-        \includegraphics[width=0.475\textwidth]{Mod6.pdf}
-        \caption{$P(6)$ generated using carry function (left) vs binomial divisibility (right)}
+        \includegraphics[width=0.475\textwidth]{P(5)Bi.pdf}
+        \caption{$P(5)$ generated using carry function (left) vs binomial divisibility (right)}
         % Make them the same size 
         % Put more figures also, define for P(2) P(3)...
     \end{figure}
@@ -831,7 +903,7 @@
 \begin{frame}
     \frametitle{Iterated Function System}
     \begin{itemize}
-        \item It is a method of constructing fractals using a set of contraction mappings. 
+        \item A method of constructing fractals using a set of contraction mappings. 
         \item A contraction mapping is an affine linear transformation 
         \begin{equation*}
             f(x, y)=\left[ \begin{array}{ll}{a} & {b} \\ {c} & {d}\end{array}\right] \left[ \begin{array}{l}{x} \\ {y}\end{array}\right]+\left[ \begin{array}{l}{e} \\ {f}\end{array}\right]
@@ -840,7 +912,7 @@
         \begin{equation*}
             \text{det}\left(\left[ \begin{array}{ll}{a} & {b} \\ {c} & {d}\end{array}\right]\right) < 1
         \end{equation*}
-        \item Union of these contraction mapping gives the Hutchinson equation of the fractal
+        \item Union of these contraction mappings gives the Hutchinson equation of the fractal
         %\item If you put a probability factor to these contraction mappings, you get some pretty images. 
     \end{itemize}
 \end{frame}
@@ -864,6 +936,16 @@
     % \item Let's construct Mod 2 Pascal triangle in a unit square
     \item Let $Q$ be a unit square  
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.2]{w_00.pdf}
+        \includegraphics[scale=0.2]{w_01.pdf}
+        \includegraphics[scale=0.2]{w_10.pdf}
+    \end{figure}
+
 \end{frame}
 
 \begin{frame}
@@ -925,63 +1007,104 @@
         \begin{equation*}
             Q = \{(x,y) | \ (x,y) \in [0,1] \times [0,1]\}
         \end{equation*}
-        \item Expand $x$ and $y$ in base 2
-        \begin{align*}
-            x &= \sum_{i=1}^\infty a_i 2^{-i}, \ a_i \in \{0,1\} \\
-            y &= \sum_{i=1}^\infty b_i 2^{-i}, \ b_i \in \{0,1\}
-        \end{align*}
-        \item From Kummer's result, we know that the coordinates of the points divisible by 2 are those which have no carries in the binary addition of the coordinates
+        \item Expand $x$ and $y$ in base 2 \\
+        \begin{minipage}[c]{0.45\textwidth}
+            \begin{align*}
+                x &= \sum_{i=1}^\infty a_i 2^{-i}, \ a_i \in \{0,1\} \\
+                y &= \sum_{i=1}^\infty b_i 2^{-i}, \ b_i \in \{0,1\}
+            \end{align*}
+        \end{minipage}
+        \hfill
+        \begin{minipage}[c]{0.45\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[scale=0.55]{PascalSq.pdf}
+            \end{figure}
+        \end{minipage}
+        \item From Kummer's result, we know that the coordinates of the points not divisible by 2 are those which have no carries in the binary addition of the coordinates
         \begin{equation*}
             S = \{(x,y) \in Q| \ a_i + b_i \leq 1 \ \forall i\}
         \end{equation*} 
     \end{itemize}
 \end{frame}
 
-% \begin{frame}
-%     \frametitle{Proof by picture}
-%     % I want to make a good figure to show this 
-% \end{frame}
-
 \begin{frame}
-    \frametitle{Proof} %by symbols}
+    \frametitle{Proof}
     \begin{itemize}
-        \item To show both are the same, we need to show
+        \item To show $S$ is the Sierpinski Triangle, $S$ must be invariant under the Hutchinson operator
         \begin{equation*}
-            w_{00}(S) \cup w_{01}(S) \cup w_{10}(S) \subset S 
+            w_{00}(S) \cup w_{01}(S) \cup w_{10}(S) = S 
         \end{equation*}
-        and, 
+        \item Take any point $(x,y) \in S$
         \begin{equation*}
-            w_{00}(S) \cup w_{01}(S) \cup w_{10}(S) \supset S
-        \end{equation*}
-        \item Take any point $(x,y) \in S$ 
-        \begin{equation*}
-            (x,y) = (0,a_1a_2a_3\dots,0.b_1 b_2 \dots)
+            (x,y) = (0.a_1a_2\dots,0.b_1 b_2 \dots)
         \end{equation*}
         where $a_i + b_i \leq 1$
+        \item To understand Hutchinson operator in action 
+        \begin{gather*}
+            \frac{x}{2} = \frac{a_12^{-1} + a_2 2^{-2} + a_3 2^{-3}\dots}{2} = 0 \cdot 2^{-1} a_12^{-2} + a_2 2^{-3} + a_3 2^{-4}\dots \\ = (0.0a_1 a_2 a_3)_2
+        \end{gather*}
+        \begin{gather*}
+            \left(\frac{x}{2}+\frac{1}{2}\right) = \frac{1}{2} + 0 \cdot 2^{-1} a_12^{-2} + a_2 2^{-3} + a_3 2^{-4}\dots \\
+            =(0.1a_1 a_2 a_3)_2
+        \end{gather*}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
         \item Applying the 3 transformations gives 
         \begin{align*}
             w_{00}(0.a_1a_2\dots,0.b_1 b_2 \dots) &= (0.0a_1a_2\dots,0.0b_1 b_2 \dots) \\
             w_{01}(0.a_1a_2\dots,0.b_1 b_2 \dots) &= (0.0a_1a_2\dots,0.1b_1 b_2 \dots) \\
             w_{10}(0.a_1a_2\dots,0.b_1 b_2 \dots) &= (0.1a_1a_2\dots,0.0b_1 b_2 \dots)
         \end{align*}
-    \end{itemize}
-\end{frame}
-%\end{comment}
-
-\begin{frame}
-    \begin{itemize}
         \item Clearly, all these points are also in $S$.
-        \item To show the second relation, we take any point $(x,y) \in S$, and we have to provide another point $(x',y') \in S$ such that $(x,y)$ is one of the images of $w_{00}(x',y'),w_{10}(x',y'),$ or $w_{01}(x',y')$. We choose 
-        \begin{equation*}
-            (x',y') = (0.a_2\dots,b_2\dots)
-        \end{equation*}
-        \item We obtain 
-        \begin{equation*}
-            (x, y)=\left\{\begin{array}{l}{w_{00}\left(x^{\prime}, y^{\prime}\right) \text { if } a_{1}=0 \text { and } b_{1}=0 \text { or }} \\ {w_{01}\left(x^{\prime}, y^{\prime}\right) \text { if } a_{1}=0 \text { and } b_{1}=1 \text { or }} \\ {w_{10}\left(x^{\prime}, y^{\prime}\right) \text { if } a_{1}=1 \text { and } b_{1}=0}\end{array}\right.
-        \end{equation*}
-        \item This completes our proof.
+        \item Therefore, $S$ is invariant under the Hutchinson operator
+        \item So..., $S$ is indeed the Sierpinski Triangle 
     \end{itemize}
 \end{frame}
+
+% \begin{frame}
+%     \frametitle{Proof} %by symbols}
+%     \begin{itemize}
+%         \item To show both are the same, we need to show
+%         \begin{equation*}
+%             w_{00}(S) \cup w_{01}(S) \cup w_{10}(S) \subset S 
+%         \end{equation*}
+%         and, 
+%         \begin{equation*}
+%             w_{00}(S) \cup w_{01}(S) \cup w_{10}(S) \supset S
+%         \end{equation*}
+%         \item Take any point $(x,y) \in S$ 
+%         \begin{equation*}
+%             (x,y) = (0,a_1a_2\dots,0.b_1 b_2 \dots)
+%         \end{equation*}
+%         where $a_i + b_i \leq 1$
+%         \item Applying the 3 transformations gives 
+%         \begin{align*}
+%             w_{00}(0.a_1a_2\dots,0.b_1 b_2 \dots) &= (0.0a_1a_2\dots,0.0b_1 b_2 \dots) \\
+%             w_{01}(0.a_1a_2\dots,0.b_1 b_2 \dots) &= (0.0a_1a_2\dots,0.1b_1 b_2 \dots) \\
+%             w_{10}(0.a_1a_2\dots,0.b_1 b_2 \dots) &= (0.1a_1a_2\dots,0.0b_1 b_2 \dots)
+%         \end{align*}
+%     \end{itemize}
+% \end{frame}
+% %\end{comment}
+
+% \begin{frame}
+%     \begin{itemize}
+%         \item Clearly, all these points are also in $S$.
+%         \item To show the second relation, we take any point $(x,y) \in S$, and we have to provide another point $(x',y') \in S$ such that $(x,y)$ is one of the images of $w_{00}(x',y'),w_{10}(x',y'),$ or $w_{01}(x',y')$. We choose 
+%         \begin{equation*}
+%             (x',y') = (0.a_2\dots,0.b_2\dots)
+%         \end{equation*}
+%         \item We obtain 
+%         \begin{equation*}
+%             (x, y)=\left\{\begin{array}{l}{w_{00}\left(x^{\prime}, y^{\prime}\right) \text { if } a_{1}=0 \text { and } b_{1}=0 \text { or }} \\ {w_{01}\left(x^{\prime}, y^{\prime}\right) \text { if } a_{1}=0 \text { and } b_{1}=1 \text { or }} \\ {w_{10}\left(x^{\prime}, y^{\prime}\right) \text { if } a_{1}=1 \text { and } b_{1}=0}\end{array}\right.
+%         \end{equation*}
+%         \item This completes our proof.
+%     \end{itemize}
+% \end{frame}
 
 \begin{frame}
     \frametitle{Concequences}
@@ -999,7 +1122,7 @@
         where the leading $n$ binary digits satisfy $a_i + b_i \leq 1$
         \item Finally, the sequence will lead to Sierpinski triangle
         \begin{equation*}
-            A_\infty = S
+            \lim_{n \to \infty} A_n = S
         \end{equation*}
     \end{itemize}
 \end{frame}
@@ -1007,11 +1130,12 @@
 \begin{frame}
     \frametitle{IFS for other primes}
     \begin{itemize}
-        \item Now, we can finally look into the global pattern formation of divisibility of binomial coefficients with primes, i.e the global patterns formed by 
-        \begin{equation*}
-            P(r) = \left\{ (n,k) \left| \binom{n+k}{n} \text{is not divisible by }r \right. \right\}
-        \end{equation*}
-        \item We construct an IFS: Divide the unit square $Q$ in $p^2$ congruent square $Q_{a,b}$ with $a,b \in \{0,\dots,p-1\}$. We introduce the contraction mappings 
+        %\item Now, we can finally look into the global pattern formation of divisibility of binomial coefficients with primes, i.e the global patterns formed by 
+        \item With similar arguments we can construct IFS for any prime p
+        % \begin{equation*}
+        %     P(r) = \left\{ (n,k) \left| \binom{n+k}{k} \text{is not divisible by }r \right. \right\}
+        % \end{equation*}
+        \item Divide the unit square $Q$ in $p^2$ congruent square $Q_{a,b}$ with $a,b \in \{0,\dots,p-1\}$. We introduce the contraction mappings 
         \begin{equation*}
             w_{a,b}(x,y) = \left(\frac{x+a}{p}, \frac{y+b}{p}\right)
         \end{equation*} 
@@ -1019,16 +1143,26 @@
         \begin{equation*}
             w_{a,b}(Q) = Q_{a,b}
         \end{equation*}
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-    \begin{itemize}
         \item Then we set the restriction to define the set of transformation
         \begin{equation*}
             a+b \leq p-1
         \end{equation*}
-        \item This restriction follows from Kummer's result,i.e $\binom{n+k}{n}$ is indivisible by $p$ when there is no carries in the p-adic addition of $n,k$
+        
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.25]{IFSp3.pdf}
+        \caption{1st Generation of Mod 3 IFS}
+    \end{figure}
+    \begin{itemize}
+        % \item Then we set the restriction to define the set of transformation
+        % \begin{equation*}
+        %     a+b \leq p-1
+        % \end{equation*}
+        \item This restriction follows from Kummer's result,i.e $\binom{n+k}{k}$ is indivisible by $p$ when there is no carries in the p-adic addition of $n,k$
         \item The Hutchinson operator for these contractions,
         \begin{equation*}
             W_p(A) = \bigcup_{a+b < p} w_{a,b}(A)
@@ -1104,5 +1238,17 @@
 % Use footnotes 
 % Use mesh 
 % Mini frames off 
+
+\begin{frame}
+    \frametitle{References}
+    \begin{itemize}
+        \item Most of the content in this presentation is based on "Chaos and Fractals: New Frontiers of Science" by Peitgen, H et al
+        2003.
+        \item Slide 29: Image was directly taken from the book "Chaos and Fractals" Pg. 394
+        \item Slide 3,4,28: Modified Tikz code from \url{https://tex.stackexchange.com/questions/198887/how-can-i-draw-pascals-triangle-with-some-its-properties}
+        \item Mathematica was used to generate most of the figures.
+        \item Inkscape, an open source image editing software, was used to edit all vector images. \url{https://inkscape.org/}
+    \end{itemize}
+\end{frame}
 
 \end{document}

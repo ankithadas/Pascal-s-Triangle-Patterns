@@ -238,12 +238,45 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2018/texmf-dist/tex/latex/framed/framed.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/framed/framed.sty
-INPUT c:/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
-INPUT c:/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/animate/animate.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/animate/animate.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+INPUT c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+INPUT c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/media9/pdfbase.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/media9/pdfbase.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT c:/texlive/2018/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+INPUT c:/texlive/2018/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+INPUT c:/texlive/2018/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+INPUT c:/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+INPUT c:/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.aux
@@ -307,45 +340,202 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2,7.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2,7.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2,7.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalMod2.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalMod2.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalMod2.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2,7.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2,7.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/pascalRule.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/pascalRule.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/pascalRule.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/grid.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/grid.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/grid.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rulerule30.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rulerule30.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rulerule30.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IMG.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IMG.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IMG.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig3.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig3.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig3.png
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60Num.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60Num.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60Num.pdf
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2,7.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2,7.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/pascalRule.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/pascalRule.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/pascalRule.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/grid.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/grid.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/grid.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rulerule30.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rulerule30.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rulerule30.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IMG.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IMG.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IMG.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-0.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-0.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-0.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-0.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-0.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-1.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-1.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-2.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-2.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-2.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-2.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-2.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-4.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-4.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-4.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-4.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-4.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-5.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-5.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-5.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-5.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-5.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-6.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-6.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-6.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-6.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-6.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-7.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-7.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-7.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-7.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-7.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-8.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-8.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-8.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-8.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-8.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-9.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-9.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-9.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-9.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-9.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-10.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-10.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-10.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-10.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-10.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-11.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-11.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-11.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-11.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-11.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-12.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-12.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-12.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-12.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-12.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-13.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-13.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-13.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-13.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-13.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-14.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-14.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-14.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-14.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-14.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-15.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-15.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-15.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-15.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-15.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-16.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-16.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-16.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-16.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-16.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-17.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-17.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-17.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-17.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-17.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-18.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-18.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-18.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-18.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-18.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-19.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-19.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-19.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-19.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-19.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-20.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-20.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-20.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-20.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-20.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-21.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-21.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-21.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-21.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-21.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-22.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-22.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-22.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-22.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-22.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-23.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-23.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-23.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-23.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-23.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-24.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-24.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-24.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-24.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-24.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-25.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-25.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-25.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-25.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-25.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-26.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-26.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-26.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-26.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-26.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-27.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-27.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-27.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-27.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-27.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-28.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-28.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-28.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-28.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-28.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-29.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-29.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-29.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-29.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/gif/frame-29.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig3.png
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60Num.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60Num.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60Num.pdf
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/initial.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/initial.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/initial.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig4.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig4.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/fig4.pdf
@@ -354,6 +544,9 @@ INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/seir.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/seir.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod2.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule30.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule30.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule30.pdf
@@ -365,6 +558,8 @@ INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/rule60Num.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/sierSmall.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/sierSmall.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/sierSmall.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/seir.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/seir.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod3Poly.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod3poly.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod3poly.pdf
@@ -377,6 +572,9 @@ INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/genPolyRuleVertical
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod3Bigger.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod3Bigger.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod3Bigger.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/mod3ployrule.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/mod3ployrule.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/mod3ployrule.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalCAMod3.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalCAMod3.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalCAMod3.pdf
@@ -386,15 +584,9 @@ INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalMod3.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/newCoordinate.png
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/newCoordinate.png
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/newCoordinate.png
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/seir.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/seir.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/P(2).pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/P(2).pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/P(2).pdf
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/mod6Initalmod2.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/mod6Initalmod2.pdf
@@ -405,15 +597,25 @@ INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod6InitalMod3.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod6.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod6.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod6.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/mod2,3.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/mod2,3.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/mod2,3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/mod2,3.jpg
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2,3.jpg
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod2,3.jpg
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod6CP.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod6CP.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod6CP.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod6.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/Mod6.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/P(5)cp.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/P(5)cp.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/P(5)cp.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/P(5)Bi.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/P(5)Bi.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/P(5)Bi.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/w_00.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/w_00.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/w_00.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/w_01.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/w_01.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/w_01.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/w_10.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/w_10.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/w_10.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/0.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/0.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/0.pdf
@@ -431,7 +633,12 @@ INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/5.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/5.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod2.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod2.pdf
-INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod2.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalSq.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalSq.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/PascalSq.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IFSp3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IFSp3.pdf
+INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/IFSp3.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod3.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod3.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod3.pdf
@@ -442,6 +649,7 @@ INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod7.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod7.pdf
 INPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/figures/GlobalMod7.pdf
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.nav
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.toc
 OUTPUT c:/Users/Ankith A Das/Documents/Math2916/Latex/doc.snm
@@ -463,4 +671,5 @@ INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
