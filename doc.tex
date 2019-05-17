@@ -8,25 +8,18 @@
 \usepackage{cleveref}
 \usepackage{epstopdf}
 \usepackage{framed}
-%\usepackage[parfill]{parskip}
 \usepackage{array}
 \usepackage{comment}
 \usepackage{animate}
 \usepackage{hyperref}
-%\usepackage{caption}
-%\captionsetup[figure]{labelformat=empty}
+
 
 \epstopdfDeclareGraphicsRule{.gif}{png}{.png}{convert gif:#1 png:\OutputFile}
 \AppendGraphicsExtensions{.gif}
 \setbeamersize{text margin left=5mm,text margin right=5mm} 
 \graphicspath{{figures/}}
-\mode<presentation>
-{
-    %\usetheme{Singapore}
-}
-\usenavigationsymbolstemplate{} % This turns off the annoying string of symbols in the bottom right
+\usenavigationsymbolstemplate{} 
 
-% \usepackage{beamerthemesplit} // Activate for custom appearance
 \title{Is Pascal's Triangle a Fractal ?}
 \author{Ankith A Das}
 \institute{The University of Sydney}
@@ -42,7 +35,6 @@
 % \end{frame}
 
 \section[Outline]{}
-%\frame{\tableofcontents}
 \setbeamercovered{transparent}
 
 \section{Pascal's Triangle}
@@ -122,7 +114,6 @@
     \frametitle{Pascal's Triangle}
     \begin{itemize}
         \item So how can we formulate this pattern ? We can begin by looking at binomial coefficients
-        %Can also be formulated through binomial coefficients
         \begin{align*}
             (1+x)^{0} &=\qquad 1 \\
             (1+x)^{1} &=\quad 1+1 x \\
@@ -141,7 +132,6 @@
 \begin{frame}
     \frametitle{Pascal's Triangle}
     \begin{itemize}
-        %\item Understanding the divisibility of binomial coefficients by computing them is a bad idea
         \item Checking if a binomial coefficient is odd or even by computing $\frac{n!}{(n-k)!k!}$ is a bad idea
         \begin{align*}
             50! = &3041409320171337804361260816606476884437\\
@@ -165,8 +155,7 @@
     The Macroscopic view
 \end{frame}
 
-% Slide on HOLD!!!!
-%Let's take a small diversion
+% Slide on HOLD!!!
 \begin{frame}
     \frametitle{Pascal's Triangle}
     \begin{itemize}
@@ -459,10 +448,8 @@
 \end{comment}
 
 \subsection{Cellular Automata and polynomials}
-%\subsection{CA,Pascal's Triangle and Polynomials}
 \begin{frame}
     \frametitle{CA and Polynomials}
-    %\frametitle{CA, Pascal's Triangle and Polynomial}
     \begin{itemize}
         \item Let's look at the powers of $r(x) = 1 + x$:
         \begin{align*}
@@ -477,7 +464,6 @@
         \begin{equation*}
             a_k(n) = a_{k-1}(n-1) + a_k(n-1)
         \end{equation*}
-        %\item $a_k(n)$ gives the state of $\text{n}^{\text{th}}$ layer $\text{CA}^*$ 
         \item This is a Cellular Automata kind of behavior
     \end{itemize}
 \end{frame}
@@ -803,16 +789,6 @@
         \end{quote}
         \item So, prime factorization of $\binom{n+k}{k}$ contains exactly $c_p(n,k)$ factors of $p$
         \item This result is pretty amazing, since it gives a direct method to check if a binomial coefficient is divisible by $p$ or not.
-        
-        % \begin{equation*}
-        %     c_{p}(5,4)=\left\{\begin{array}{l}{1, \text { for } p=2,7} \\
-        %     {2, \text { for } p=3 } \\
-        % {0 \text{ otherwise }}\end{array}\right.
-        % \end{equation*}
-        % \item This implies 
-        % \begin{equation*}
-        %     \binom{5+4}{4} = \binom{9}{4} = 2^1 \cdot 3^2 \cdot 7^1
-        % \end{equation*}
     \end{itemize}
 \end{frame}
 
@@ -1065,6 +1041,7 @@
     \end{itemize}
 \end{frame}
 
+% Section removed from main slides 
 % \begin{frame}
 %     \frametitle{Proof} %by symbols}
 %     \begin{itemize}
@@ -1230,7 +1207,6 @@
     \Huge{Thank You!}
 \end{frame}
 
-% add appendix and references 
 % 2 figures were taken out from the text book, need to reference them 
 % One figure from MathWorld 
 
